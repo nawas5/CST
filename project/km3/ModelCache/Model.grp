@@ -1,0 +1,21 @@
+20110628
+<GROUP>Excluded from Bounding Box
+<GROUPTYPE>1
+<GROUP>Excluded from Simulation
+<GROUPTYPE>0
+<GROUP>meshgroup1
+<GROUPTYPE>3
+<ENTITY>Antenna:microstrip_taper
+<TYPE>SOLID
+<GROUP>meshgroup2
+<GROUPTYPE>3
+<ENTITY>Antenna:substrate
+<TYPE>SOLID
+<GROUP>meshgroup3
+<GROUPTYPE>3
+<ENTITY>Antenna:microstrip_coupler
+<TYPE>SOLID
+<GROUP>meshgroup4
+<GROUPTYPE>3
+<ENTITY>Antenna:feed_assist
+<TYPE>SOLID

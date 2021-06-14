@@ -1,0 +1,44 @@
+[Version]
+2
+[ProjectVersion]
+'# MWS Version: Version 2020.1 - Oct 21 2019 - ACIS 29.0.1 -
+[Author]
+Antenna Magus
+[Mesh Cells]
+610,400
+[Mesh Type]
+Hexahedral
+[Last Problem Type]
+High Frequency
+[Last Solver Type]
+HF Time Domain
+[Last Solver Type Abb]
+t
+[Results]
+Time Domain: S-Parameter
+[Modeler Unique ID]
+5:km3.cst?4571c8dc95100eeec0bb9bc23d72e548?34357:numberofparameters=29:port=1>mode=1>zre=0>zim=0:::c0?cavity_adjust?cavity_diameter?conductor_height?conversion_factor?flare_height?flare_length?frequency_centre?frequency_maximum?frequency_minimum?metal_thickness?microstrip_coupler_inset?microstrip_coupler_length?microstrip_coupler_width?microstrip_taper_length?microstrip_taper_width?num_ff_monitors?relative_permittivity?slotline_length?slotline_width?stub_angle?stub_radius?stub_start_angle?substrate_height?tan_delta?taper_factor?taper_factor_corrected?theta?wavelength_fmax
+[Comment]
+Project name:  Vivaldi antenna
+
+Creator: Antenna Magus
+
+Date created: July 2009
+
+Description: 
+
+Model:
+
+The flare is created by the MACRO 'Vivaldi taper'. It is unioned with the circular cavity and then subtracted from the conductor. The angular stub is created by extruding a curve comprising of the angular outline and the straight base and sides of the stub
+
+Port:
+
+A microstrip waveguide port is used at the edge of the 'microstrip_taper' component.
+
+Meshing: 
+
+Local meshing is defined on the microstrip_coupler, microstrip_taper, substrate and feed_assist components. The 'feed_assist' component is a rectangular air box the size of the slotline. This air box is created to allow local meshing at the microstrip/slotline transition.
+
+Simulation:
+
+This model is to be used with the T-solver

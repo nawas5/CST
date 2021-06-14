@@ -1,0 +1,160 @@
+13/Jun/2021 16:57:28  Optimizer Settings:
+                      
+                      Optimizer type: Interpolated Quasi Newton
+                      		Number of optimizer passes: 1
+                      
+                      ---------------------------------------------------------------------------------------
+                      
+                      Parameters used for optimization:
+                      ---------------------------------------------------------------------------------------
+                      | name                    |          min |          max |      initial | # of samples |
+                      ---------------------------------------------------------------------------------------
+                      | Length                  |            3 |            6 |            4 |           50|
+                      | Width                   |            1 |          8.5 |            2 |           50|
+                      ---------------------------------------------------------------------------------------
+                      
+                      Goal functionals used for optimization:
+                      
+                      1DC: SPara1 : S-Parameters : S2,1: operate by ">" with target 10 in range: 16, weighted: 0.8
+                      1DC: SPara1 : S-Parameters : S2,1: maximize in range: 16, weighted: 1.0
+13/Jun/2021 16:57:28  
+                      ________________________________________________________________________
+13/Jun/2021 16:57:28  
+                      Solved problem for parameters:
+
+13/Jun/2021 16:57:28  	Length = 4 
+13/Jun/2021 16:57:28  	Width = 2 
+13/Jun/2021 16:57:28  
+13/Jun/2021 16:57:28  	Initial goal function value  = 3.56678 (Solver)
+13/Jun/2021 16:57:28  	Best goal function value   = 3.56678 (Solver)
+13/Jun/2021 16:57:28  	Last goal function value   = 3.56678 (Solver)
+13/Jun/2021 16:57:28  
+                      ________________________________________________________________________
+13/Jun/2021 16:57:28  
+                      Solved problem for parameters:
+
+13/Jun/2021 16:57:28  	Length = 3.9375 
+13/Jun/2021 16:57:28  	Width = 2 
+13/Jun/2021 16:57:28  
+13/Jun/2021 16:57:28  	Initial goal function value  = 3.56678 (Solver)
+13/Jun/2021 16:57:28  	Best goal function value   = 3.56678 (Solver)
+13/Jun/2021 16:57:28  	Last goal function value   = 3.57582 (Solver)
+13/Jun/2021 16:57:29  
+                      ________________________________________________________________________
+13/Jun/2021 16:57:29  
+                      Solved problem for parameters:
+
+13/Jun/2021 16:57:29  	Length = 4.06061 
+13/Jun/2021 16:57:29  	Width = 2 
+13/Jun/2021 16:57:29  
+13/Jun/2021 16:57:29  	Initial goal function value  = 3.56678 (Solver)
+13/Jun/2021 16:57:29  	Best goal function value   = 3.55782 (Solver)
+13/Jun/2021 16:57:29  	Last goal function value   = 3.55782 (Solver)
+13/Jun/2021 16:57:29  	Parameter update time   = 00:00:01 h
+13/Jun/2021 16:57:29  
+                      ________________________________________________________________________
+13/Jun/2021 16:57:29  
+                      Solved problem for parameters:
+
+13/Jun/2021 16:57:29  	Length = 4 
+13/Jun/2021 16:57:29  	Width = 1.85714 
+13/Jun/2021 16:57:29  
+13/Jun/2021 16:57:29  	Initial goal function value  = 3.56678 (Solver)
+13/Jun/2021 16:57:29  	Best goal function value   = 3.55782 (Solver)
+13/Jun/2021 16:57:29  	Last goal function value   = 3.71609 (Solver)
+13/Jun/2021 16:57:30  
+                      ________________________________________________________________________
+13/Jun/2021 16:57:30  
+                      Solved problem for parameters:
+
+13/Jun/2021 16:57:30  	Length = 4 
+13/Jun/2021 16:57:30  	Width = 2.15476 
+13/Jun/2021 16:57:30  
+13/Jun/2021 16:57:30  	Initial goal function value  = 3.56678 (Solver)
+13/Jun/2021 16:57:30  	Best goal function value   = 3.42552 (Solver)
+13/Jun/2021 16:57:30  	Last goal function value   = 3.42552 (Solver)
+13/Jun/2021 16:57:30  	Parameter update time   = 00:00:01 h
+13/Jun/2021 16:57:31  
+                      ________________________________________________________________________
+13/Jun/2021 16:57:31  
+                      Solved problem for parameters:
+
+13/Jun/2021 16:57:31  	Length = 4.18182 
+13/Jun/2021 16:57:31  	Width = 8.34524 
+13/Jun/2021 16:57:31  
+13/Jun/2021 16:57:31  	Initial goal function value  = 3.56678 (Solver)
+13/Jun/2021 16:57:31  	Best goal function value   = 2.65929 (Solver)
+13/Jun/2021 16:57:31  	Last goal function value   = 2.65929 (Solver)
+13/Jun/2021 16:57:31  	Parameter update time   = 00:00:01 h
+13/Jun/2021 16:57:31  
+                      ________________________________________________________________________
+13/Jun/2021 16:57:31  
+                      Solved problem for parameters:
+
+13/Jun/2021 16:57:31  	Length = 4.12121 
+13/Jun/2021 16:57:31  	Width = 8.34524 
+13/Jun/2021 16:57:31  
+13/Jun/2021 16:57:31  	Initial goal function value  = 3.56678 (Solver)
+13/Jun/2021 16:57:31  	Best goal function value   = 2.61528 (Solver)
+13/Jun/2021 16:57:31  	Last goal function value   = 2.61528 (Solver)
+13/Jun/2021 16:57:32  
+                      ________________________________________________________________________
+13/Jun/2021 16:57:32  
+                      Solved problem for parameters:
+
+13/Jun/2021 16:57:32  	Length = 4.24242 
+13/Jun/2021 16:57:32  	Width = 8.34524 
+13/Jun/2021 16:57:32  
+13/Jun/2021 16:57:32  	Initial goal function value  = 3.56678 (Solver)
+13/Jun/2021 16:57:32  	Best goal function value   = 2.61528 (Solver)
+13/Jun/2021 16:57:32  	Last goal function value   = 2.7015 (Solver)
+13/Jun/2021 16:57:32  	Parameter update time   = 00:00:01 h
+13/Jun/2021 16:57:32  
+                      ________________________________________________________________________
+13/Jun/2021 16:57:32  
+                      Solved problem for parameters:
+
+13/Jun/2021 16:57:32  	Length = 4.18182 
+13/Jun/2021 16:57:32  	Width = 8.19048 
+13/Jun/2021 16:57:32  
+13/Jun/2021 16:57:32  	Initial goal function value  = 3.56678 (Solver)
+13/Jun/2021 16:57:32  	Best goal function value   = 2.61528 (Solver)
+13/Jun/2021 16:57:32  	Last goal function value   = 2.65905 (Solver)
+13/Jun/2021 16:57:33  
+                      ________________________________________________________________________
+13/Jun/2021 16:57:33  
+                      Solved problem for parameters:
+
+13/Jun/2021 16:57:33  	Length = 4.18182 
+13/Jun/2021 16:57:33  	Width = 8.5 
+13/Jun/2021 16:57:33  
+13/Jun/2021 16:57:33  	Initial goal function value  = 3.56678 (Solver)
+13/Jun/2021 16:57:33  	Best goal function value   = 2.61528 (Solver)
+13/Jun/2021 16:57:33  	Last goal function value   = 2.65974 (Solver)
+13/Jun/2021 16:57:33  	Solver time = 00:00:01 h
+13/Jun/2021 16:57:33  
+                      ________________________________________________________________________
+13/Jun/2021 16:57:33  
+                      Solved problem for parameters:
+
+13/Jun/2021 16:57:33  	Length = 3.0625 
+13/Jun/2021 16:57:33  	Width = 8.34524 
+13/Jun/2021 16:57:33  
+13/Jun/2021 16:57:33  	Initial goal function value  = 3.56678 (Solver)
+13/Jun/2021 16:57:33  	Best goal function value   = 0 (Solver)
+13/Jun/2021 16:57:33  	Last goal function value   = 0 (Solver)
+13/Jun/2021 16:57:33  
+                      	Optimization process aborted.
+13/Jun/2021 16:57:33  
+                      ________________________________________________________________________
+
+
+13/Jun/2021 16:57:33  	Total solver time           = 00:00:01 h (11 solver runs)
+13/Jun/2021 16:57:33  	Total parameter update time = 00:00:04 h
+13/Jun/2021 16:57:33  	Total interpolation time    = 00:00:00 h (10 interpolation steps)
+13/Jun/2021 16:57:33  	Total optimizer time        = 00:00:05 h (21 evaluations)
+
+13/Jun/2021 16:57:33  
+                      
+                      Optimization was able to satisfy the defined goals. Best parameter set is stored.
+

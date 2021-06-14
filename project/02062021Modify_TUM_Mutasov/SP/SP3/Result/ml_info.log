@@ -1,0 +1,14 @@
+Layer Detection Run At: Sun Jun 13 18:50:33 2021
+Layer Detection Version: 20180416
+
+Result from Auto-Detection.
+
+Multilayer Stack with 3 Layers in z-direction (top to bottom) :
+
+         7 + ----- Simulation Box Boundary -----------------
+           | Thickness: 6, Material: air_0
+         1 + ----- Interface -------------------------------
+           | Thickness: 1, Material: MSREF1/Substrate
+         0 + ----- Interface -------------------------------
+           | Thickness: 0, Material: MSREF1/GND
+        -0 + ----- Simulation Box Boundary -----------------

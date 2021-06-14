@@ -1,0 +1,24 @@
+{
+   "execution": {
+      "classname": "SMAPowerByEmagHPCFrame",
+      "libname": "SMAPowerByEmagUI"
+   },
+   "inputVariables": [
+      {
+         "name": "Length",
+         "type": "float",
+         "value": 2.038988611717174
+      },
+      {
+         "name": "Width",
+         "type": "float",
+         "value": 6.617723529371846
+      },
+      {
+         "name": "Coord",
+         "type": "float",
+         "value": 5.0
+      }
+   ],
+   "outputVariables": []
+}

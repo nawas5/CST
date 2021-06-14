@@ -1,0 +1,36 @@
+13/Jun/2021 18:28:57  Build version: 2020.1 Release from 2019-10-21 (change 729620)
+
+13/Jun/2021 18:28:57   Task: SPara1
+                      ----------------------------------------------------------------------
+13/Jun/2021 18:28:57  Tolerance Settings:
+                      	Relative tolerance on error current: 1e-06.
+
+13/Jun/2021 18:28:57   Task time:                         0 sec
+13/Jun/2021 18:28:57  
+                      ======================================================================
+
+13/Jun/2021 18:28:57   Task: SP2
+                      ----------------------------------------------------------------------
+13/Jun/2021 18:28:59  ERROR: Simulation project task SP2 could not be evaluated successfully.
+
+13/Jun/2021 18:28:59    ***Error***:
+                        Simulation project task SP2 could not be evaluated successfully.
+
+13/Jun/2021 18:28:59  
+                      ======================================================================
+
+13/Jun/2021 18:28:59   Task: AC1
+                      ----------------------------------------------------------------------
+13/Jun/2021 18:28:59  ERROR: 1 parameter errors to be fixed:
+                      There is no block that can combine results!
+
+
+13/Jun/2021 18:28:59    ***Error***:
+                        1 parameter errors to be fixed:
+                      There is no block that can combine results!
+
+
+13/Jun/2021 18:28:59  
+                      ======================================================================
+
+13/Jun/2021 18:28:59   Total time:                        0 sec

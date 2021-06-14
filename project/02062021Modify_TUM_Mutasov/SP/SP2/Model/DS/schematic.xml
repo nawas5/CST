@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SchematicTopology Version="2.5" Seed="9" Grid="25">
+    <BasePath>C:\Users\Mosolok\Downloads\02062021Modify_TUM_Mutasov\SP\SP2\Model\DS</BasePath>
+    <Block Id="1" ForeignId="326990040" Class="MWSSCHEM" ImageIndex="1">
+        <Size Height="375" Width="300"/>
+        <Pins Options="" Distribution="Optimal">
+            <Pin Index="0" Port="0" BlockPosition="Left">
+                <Label>1</Label>
+            </Pin>
+            <Pin Index="2" Port="2" BlockPosition="Left">
+                <Label>3</Label>
+            </Pin>
+            <Pin Index="1" Port="1" BlockPosition="Left">
+                <Label>2</Label>
+            </Pin>
+            <Pin Index="3" Port="3" BlockPosition="Left">
+                <Label>4</Label>
+            </Pin>
+            <Pin Index="0" Port="4" BlockPosition="Right">
+                <Label>5</Label>
+            </Pin>
+            <Pin Index="1" Port="5" BlockPosition="Right">
+                <Label>6</Label>
+            </Pin>
+            <Pin Index="2" Port="6" BlockPosition="Right">
+                <Label>7</Label>
+            </Pin>
+            <Pin Index="3" Port="7" BlockPosition="Right">
+                <Label>8</Label>
+            </Pin>
+            <Ports>
+                <Port Name="1" Label=""/>
+                <Port Name="2" Label=""/>
+                <Port Name="3" Label=""/>
+                <Port Name="4" Label=""/>
+                <Port Name="5" Label=""/>
+                <Port Name="6" Label=""/>
+                <Port Name="7" Label=""/>
+                <Port Name="8" Label=""/>
+            </Ports>
+        </Pins>
+        <Image FileName="../3D/Model.dib" Scale="AutoFit">
+            <Size Height="774" Width="1011"/>
+        </Image>
+        <Pos X="150" Y="187.5"/>
+        <ToolTip>CST MICROWAVE STUDIO schematic block MWSSCHEM1</ToolTip>
+    </Block>
+    <Block Id="2" ForeignId="538862783" Class="EXTPORT" Flags="NotResizable">
+        <Size Height="50" Width="100"/>
+        <Pins ExtendedDistribution="1" Options="">
+            <Pin Index="0" Port="0" BlockPosition="Center"/>
+            <Ports>
+                <Port Name="" Label=""/>
+            </Ports>
+        </Pins>
+        <Pos X="-575" Y="0"/>
+        <Label>3</Label>
+        <ToolTip>External Port 3</ToolTip>
+    </Block>
+    <Block Id="3" ForeignId="102448030" Class="EXTPORT" Flags="NotResizable">
+        <Size Height="50" Width="100"/>
+        <Pins ExtendedDistribution="1" Options="">
+            <Pin Index="0" Port="0" BlockPosition="Center"/>
+            <Ports>
+                <Port Name="" Label=""/>
+            </Ports>
+        </Pins>
+        <Pos X="800" Y="25"/>
+        <Label>4</Label>
+        <ToolTip>External Port 4</ToolTip>
+    </Block>
+    <Block Id="4" ForeignId="350284660" Class="TSFILE">
+        <Size Height="225" Width="225"/>
+        <Pins Options="" Distribution="Custom">
+            <Pin Index="0" Port="0" BlockPosition="Left">
+                <Label>1</Label>
+            </Pin>
+            <Pin Index="1" Port="1" BlockPosition="Right">
+                <Label>2</Label>
+            </Pin>
+            <Pin Index="1" Port="2" BlockPosition="Left">
+                <Label>3</Label>
+            </Pin>
+            <Pin Index="0" Port="3" BlockPosition="Right">
+                <Label>4</Label>
+            </Pin>
+            <Ports>
+                <Port Name="1" Label=""/>
+                <Port Name="2" Label=""/>
+                <Port Name="3" Label=""/>
+                <Port Name="4" Label=""/>
+            </Ports>
+        </Pins>
+        <Pos X="512.5" Y="-337.5"/>
+        <Label>Tran30GHz.s4p</Label>
+        <ToolTip>TOUCHSTONE file block TSFILE2</ToolTip>
+    </Block>
+    <Block Id="5" ForeignId="495012375" Class="EXTPORT" Flags="NotResizable">
+        <Size Height="50" Width="100"/>
+        <Pins ExtendedDistribution="1" Options="">
+            <Pin Index="0" Port="0" BlockPosition="Center"/>
+            <Ports>
+                <Port Name="" Label=""/>
+            </Ports>
+        </Pins>
+        <Pos X="125" Y="450"/>
+        <Label>1</Label>
+        <ToolTip>External Port 1</ToolTip>
+    </Block>
+    <Block Id="6" ForeignId="299512340" Class="EXTPORT" Flags="NotResizable">
+        <Size Height="50" Width="100"/>
+        <Pins ExtendedDistribution="1" Options="">
+            <Pin Index="0" Port="0" BlockPosition="Center"/>
+            <Ports>
+                <Port Name="" Label=""/>
+            </Ports>
+        </Pins>
+        <Pos X="125" Y="550"/>
+        <Label>2</Label>
+        <ToolTip>External Port 2</ToolTip>
+    </Block>
+    <Block Id="7" ForeignId="397321652" Class="TSFILE">
+        <Size Height="225" Width="225"/>
+        <Pins Options="" Distribution="Custom">
+            <Pin Index="0" Port="0" BlockPosition="Left">
+                <Label>1</Label>
+            </Pin>
+            <Pin Index="1" Port="1" BlockPosition="Left">
+                <Label>2</Label>
+            </Pin>
+            <Pin Index="0" Port="2" BlockPosition="Right">
+                <Label>3</Label>
+            </Pin>
+            <Pin Index="1" Port="3" BlockPosition="Right">
+                <Label>4</Label>
+            </Pin>
+            <Ports>
+                <Port Name="1" Label=""/>
+                <Port Name="2" Label=""/>
+                <Port Name="3" Label=""/>
+                <Port Name="4" Label=""/>
+            </Ports>
+        </Pins>
+        <Pos X="137.5" Y="712.5"/>
+        <Label>Tran30GHz.s4p</Label>
+        <ToolTip>TOUCHSTONE file block TSFILE1</ToolTip>
+    </Block>
+    <Block Id="8" ForeignId="43647660" Class="GND">
+        <Size Height="50" Width="50"/>
+        <Pins Options="" Distribution="Custom">
+            <Pin Index="0" Port="0" BlockPosition="Top"/>
+            <Ports>
+                <Port Name="" Label=""/>
+            </Ports>
+        </Pins>
+        <Pos X="125" Y="925"/>
+        <ToolTip>Ground GND1</ToolTip>
+    </Block>
+    <Block Id="9" ForeignId="161980385" Class="GND">
+        <Size Height="50" Width="50"/>
+        <Pins Options="" Distribution="Custom">
+            <Pin Index="0" Port="0" BlockPosition="Top"/>
+            <Ports>
+                <Port Name="" Label=""/>
+            </Ports>
+        </Pins>
+        <Pos X="125" Y="1025"/>
+        <ToolTip>Ground GND2</ToolTip>
+    </Block>
+</SchematicTopology>

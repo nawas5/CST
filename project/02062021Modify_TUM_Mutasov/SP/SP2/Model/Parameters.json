@@ -1,0 +1,22 @@
+{
+    "parameters": [
+        {
+            "descr": "Длина",
+            "expr": "2.039",
+            "name": "Length",
+            "value": "2.039"
+        },
+        {
+            "descr": "Ширина",
+            "expr": "6.62",
+            "name": "Width",
+            "value": "6.62"
+        },
+        {
+            "expr": "5",
+            "name": "Coord",
+            "value": "5"
+        }
+    ],
+    "version": 1
+}

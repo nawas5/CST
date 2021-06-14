@@ -1,0 +1,75 @@
+2015_07_22
+[GSCALE: 0.001]
+[NAME_EMBEDDING: False]
+[MATERIAL: Metal] 
+     .FrqType "all" 
+     .Type "Pec" 
+     .MaterialUnit "Geometry", "m" 
+     .Epsilon "1.0" 
+     .Mu "1.0" 
+     .Sigma "0" 
+     .LossyMetalSIRoughness "0" 
+     .TanD "0.0" 
+     .TanDFreq "0.0" 
+     .TanDGiven "False" 
+     .TanDModel "ConstTanD" 
+     .SigmaM "0" 
+     .TanDM "0.0" 
+     .TanDMFreq "0.0" 
+     .TanDMGiven "False" 
+     .TanDMModel "ConstSigma" 
+     .DispModelEps "None" 
+     .DispModelMu "None" 
+     .DispersiveFittingSchemeEps "General 1st" 
+     .DispersiveFittingSchemeMu "General 1st" 
+     .UseGeneralDispersionEps "False" 
+     .UseGeneralDispersionMu "False" 
+     .Rho "0" 
+     .ThermalType "Normal" 
+     .ThermalConductivity "0" 
+     .Colour "1", "1", "0" 
+     .Wireframe "False" 
+     .Reflection "False" 
+     .Allowoutline "True" 
+     .Transparentoutline "False" 
+     .Transparency "0" 
+     .Create 
+[ENDMATERIAL] 
+[DISCRETEFACE: 1]
+     .Type "SParameter" 
+     .Impedance "50" 
+     .VoltageAmplitude "1.0" 
+     .SetP1 "True", "-1.01949430586", "0", "1" 
+     .SetP2 "True", "-1.01949430586", "0", "0" 
+     .LocalCoordinates "False" 
+     .InvertDirection "False" 
+     .CenterEdge "True" 
+     .Monitor "False" 
+     .ReferenceWCS "-1.01949430586", "0", "1", "-1", "0", "0", "0", "0", "1"
+     .PortRegion "-0.5", "0", "-3.30886176469", "3.30886176469", "0", "0"
+     .UseMultipinAutoSetup "True" 
+(PICKCOMMANDS)
+     .AddEdgeImported "-1.01949430586", "3.30886176469", "1", "-1.01949430586", "-3.30886176469", "1" 
+     .AddEdgeImported "-1.01949430586", "3.30886176469", "0", "-1.01949430586", "-3.30886176469", "0" 
+(ENDPICKCOMMANDS)
+[ENDDISCRETEFACE]
+[DISCRETEFACE: 2]
+     .Type "SParameter" 
+     .Impedance "50" 
+     .VoltageAmplitude "1.0" 
+     .SetP1 "True", "1.01949430586", "0", "1" 
+     .SetP2 "True", "1.01949430586", "0", "0" 
+     .LocalCoordinates "False" 
+     .InvertDirection "False" 
+     .CenterEdge "True" 
+     .Monitor "False" 
+     .ReferenceWCS "1.01949430586", "0", "1", "1", "0", "0", "0", "0", "1"
+     .PortRegion "-0.5", "0", "-3.30886176469", "3.30886176469", "0", "0"
+     .UseMultipinAutoSetup "True" 
+(PICKCOMMANDS)
+     .AddEdgeImported "1.01949430586", "-3.30886176469", "1", "1.01949430586", "3.30886176469", "1" 
+     .AddEdgeImported "1.01949430586", "-3.30886176469", "0", "1.01949430586", "3.30886176469", "0" 
+(ENDPICKCOMMANDS)
+[ENDDISCRETEFACE]
+[BBOX:-1.019494305858585 1.019494305858585 -3.3088617646859251 3.3088617646859251 0 1]
+[BBOX_STRUCTURE:-1.019494305858585 1.019494305858585 -3.3088617646859251 3.3088617646859251 0 1]

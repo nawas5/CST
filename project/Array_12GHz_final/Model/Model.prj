@@ -1,0 +1,21 @@
+[Version]
+2
+[ProjectVersion]
+'# MWS Version: Version 2020.1 - Oct 21 2019 - ACIS 29.0.1 -
+[Author]
+Sergey
+[Mesh Cells]
+28,185
+[Mesh Type]
+Tetrahedral
+[Last Problem Type]
+High Frequency
+[Last Solver Type]
+HF Frequency Domain
+[Last Solver Type Abb]
+f
+[Results]
+Frequency Domain: S-Parameter
+[Modeler Unique ID]
+5:array_12ghz_final.cst?79d703f19c9adbd16d057ff7a5ff6ecf?42549:numberofparameters=8:port=1>mode=1>zre=0>zim=0:fport=zmax>fmode=1>zre=0>zim=0?fport=zmax>fmode=2>zre=0>zim=0::d_viva1?d_viva2?s_viva?t_vibrator?t_viva?phi?teta?theta
+[Comment]

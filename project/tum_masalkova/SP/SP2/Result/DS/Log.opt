@@ -1,0 +1,95 @@
+13/Jun/2021 17:24:36  Optimizer Settings:
+                      
+                      Optimizer type: Trust Region Framework
+                      		Type: Local linear models on primary data
+                      .		Min trust region size (in unit cube): 0.01
+                      		Sigma (measure for globalness): 0.2
+                      			Finite difference delta: 0.01
+                      			Tabu list vicinity radius: 0
+                      			Initial exploration threshold: 0
+                      		Surrogate optimization strategy: Nelder Mead Simplex Algorithm
+                      
+                      ---------------------------------------------------------------------------------------
+                      
+                      Parameters used for optimization:
+                      ---------------------------------------------------------------------------------------
+                      | name                    |          min |          max |      initial |
+                      ---------------------------------------------------------------------------------------
+                      | Length                  |            1 |            5 |       2.7563 |
+                      | Width                   |            2 |           10 |        7.511 |
+                      ---------------------------------------------------------------------------------------
+                      
+                      Goal functionals used for optimization:
+                      
+                      1DC: SPara1 : S-Parameters\S2,1 : : operate by ">" with target 10 in range: 16, weighted: 0.8
+                      1DC: SPara1 : S-Parameters\S1,1 : : maximize in range: 16, weighted: 1.0
+13/Jun/2021 17:24:36  
+                      ________________________________________________________________________
+13/Jun/2021 17:24:36  
+                      Solved problem for parameters:
+
+13/Jun/2021 17:24:36  	Length = 2.7563 
+13/Jun/2021 17:24:36  	Width = 7.511 
+13/Jun/2021 17:24:36  
+13/Jun/2021 17:24:36  	Initial goal function value  = 6.62371 (Solver)
+13/Jun/2021 17:24:36  	Best goal function value   = 6.62371 (Solver)
+13/Jun/2021 17:24:36  	Last goal function value   = 6.62371 (Solver)
+13/Jun/2021 17:25:34  
+                      ________________________________________________________________________
+13/Jun/2021 17:25:34  
+                      Solved problem for parameters:
+
+13/Jun/2021 17:25:34  	Length = 2.7963 
+13/Jun/2021 17:25:34  	Width = 7.511 
+13/Jun/2021 17:25:34  
+13/Jun/2021 17:25:34  	Initial goal function value  = 6.62371 (Solver)
+13/Jun/2021 17:25:34  	Best goal function value   = 6.62371 (Solver)
+13/Jun/2021 17:25:34  	Last goal function value   = 7.0509 (Solver)
+13/Jun/2021 17:25:34  	Solver time = 00:00:56 h
+13/Jun/2021 17:25:34  	Parameter update time   = 00:00:02 h
+13/Jun/2021 17:26:33  
+                      ________________________________________________________________________
+13/Jun/2021 17:26:33  
+                      Solved problem for parameters:
+
+13/Jun/2021 17:26:33  	Length = 2.7563 
+13/Jun/2021 17:26:33  	Width = 7.591 
+13/Jun/2021 17:26:33  
+13/Jun/2021 17:26:33  	Initial goal function value  = 6.62371 (Solver)
+13/Jun/2021 17:26:33  	Best goal function value   = 6.62371 (Solver)
+13/Jun/2021 17:26:33  	Last goal function value   = 6.69504 (Solver)
+13/Jun/2021 17:26:33  	Solver time = 00:00:57 h
+13/Jun/2021 17:26:33  	Parameter update time   = 00:00:02 h
+13/Jun/2021 17:26:33  
+                      
+                      Trust Region Framework: Optimization of trust region model yields a prediction of a goal of 0 (current anchor: 6.62371)
+                      The distance from the current anchor (in the Unit Cube) to the prediction is: 0.211249
+
+
+13/Jun/2021 17:27:20  
+                      ________________________________________________________________________
+13/Jun/2021 17:27:20  
+                      Solved problem for parameters:
+
+13/Jun/2021 17:27:20  	Length = 2.03899 
+13/Jun/2021 17:27:20  	Width = 6.61772 
+13/Jun/2021 17:27:20  
+13/Jun/2021 17:27:20  	Initial goal function value  = 6.62371 (Solver)
+13/Jun/2021 17:27:20  	Best goal function value   = 0 (Solver)
+13/Jun/2021 17:27:20  	Last goal function value   = 0 (Solver)
+13/Jun/2021 17:27:20  	Solver time = 00:00:45 h
+13/Jun/2021 17:27:20  	Parameter update time   = 00:00:02 h
+13/Jun/2021 17:27:20  
+                      	Optimization process aborted.
+13/Jun/2021 17:27:20  
+                      ________________________________________________________________________
+
+
+13/Jun/2021 17:27:20  	Total solver time           = 00:02:38 h (4 solver runs)
+13/Jun/2021 17:27:20  	Total parameter update time = 00:00:06 h
+13/Jun/2021 17:27:20  	Total optimizer time        = 00:02:44 h (4 evaluations)
+
+13/Jun/2021 17:27:20  
+                      
+                      Optimization was able to satisfy the defined goals. Best parameter set is stored.
+

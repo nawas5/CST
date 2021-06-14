@@ -1,0 +1,23 @@
+13/Jun/2021 18:43:16  Build version: 2020.1 Release from 2019-10-21 (change 729620)
+
+13/Jun/2021 18:43:16   Task: SPara1
+                      ----------------------------------------------------------------------
+13/Jun/2021 18:43:16  Tolerance Settings:
+                      	Relative tolerance on error current: 1e-06.
+
+13/Jun/2021 18:43:17   Task time:                         0 sec
+13/Jun/2021 18:43:17  
+                      ======================================================================
+
+13/Jun/2021 18:43:17   Task: AC1
+                      ----------------------------------------------------------------------
+13/Jun/2021 18:44:05  Tolerance Settings:
+                      	Relative tolerance on error current: 1e-06.
+
+13/Jun/2021 18:44:06  WARNING: Excitation amplitudes for all ports are zero or have very small amplitudes. 
+
+13/Jun/2021 18:44:10   Task time:                         52 sec
+13/Jun/2021 18:44:10  
+                      ======================================================================
+
+13/Jun/2021 18:44:10   Total time:                        52 sec

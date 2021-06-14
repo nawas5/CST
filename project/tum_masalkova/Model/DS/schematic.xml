@@ -1,0 +1,326 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SchematicTopology Version="2.5" Seed="18" Grid="25">
+    <BasePath>C:\Users\Mosolok\Downloads\tum_masalkova\Model\DS</BasePath>
+    <Block Id="1" ForeignId="467002206" Class="MSREF">
+        <Size Height="150" Width="150"/>
+        <Pos X="1700" Y="675"/>
+        <Appearance Level="Foreground">
+            <Pen Style="NoPen" Color="#ff000000" Width="1" Cosmetic="0"/>
+            <Brush Style="NoBrush" Color="#ff000000"/>
+        </Appearance>
+        <Appearance Level="Background">
+            <Pen Style="NoPen" Color="#ff000000" Width="1" Cosmetic="0"/>
+            <Brush Style="NoBrush" Color="#ff000000"/>
+        </Appearance>
+        <ToolTip>Microstrip reference block MSREF1</ToolTip>
+    </Block>
+    <Block Id="2" ForeignId="495012375" Class="EXTPORT" Flags="NotResizable">
+        <Size Height="50" Width="100"/>
+        <Pins ExtendedDistribution="1" Options="">
+            <Pin Index="0" Port="0" BlockPosition="Center"/>
+            <Ports>
+                <Port Name="" Label=""/>
+            </Ports>
+        </Pins>
+        <Pos X="600" Y="975"/>
+        <Label>1</Label>
+        <Appearance Level="Foreground">
+            <Pen Style="NoPen" Color="#ff000000" Width="1" Cosmetic="0"/>
+            <Brush Style="NoBrush" Color="#ff000000"/>
+        </Appearance>
+        <Appearance Level="Background">
+            <Pen Style="NoPen" Color="#ff000000" Width="1" Cosmetic="0"/>
+            <Brush Style="NoBrush" Color="#ff000000"/>
+        </Appearance>
+        <ToolTip>External Port 1</ToolTip>
+    </Block>
+    <Block Id="3" ForeignId="299512340" Class="EXTPORT" Flags="NotResizable">
+        <Size Height="50" Width="100"/>
+        <Pins ExtendedDistribution="1" Options="">
+            <Pin Index="0" Port="0" BlockPosition="Center"/>
+            <Ports>
+                <Port Name="" Label=""/>
+            </Ports>
+        </Pins>
+        <Pos X="2275" Y="975"/>
+        <Label>2</Label>
+        <Appearance Level="Foreground">
+            <Pen Style="NoPen" Color="#ff000000" Width="1" Cosmetic="0"/>
+            <Brush Style="NoBrush" Color="#ff000000"/>
+        </Appearance>
+        <Appearance Level="Background">
+            <Pen Style="NoPen" Color="#ff000000" Width="1" Cosmetic="0"/>
+            <Brush Style="NoBrush" Color="#ff000000"/>
+        </Appearance>
+        <ToolTip>External Port 2</ToolTip>
+    </Block>
+    <Block Id="4" ForeignId="397321652" Class="TSFILE">
+        <Size Height="225" Width="225"/>
+        <Pins Options="" Distribution="Custom">
+            <Pin Index="0" Port="0" BlockPosition="Left">
+                <Label>1</Label>
+            </Pin>
+            <Pin Index="1" Port="1" BlockPosition="Left">
+                <Label>2</Label>
+            </Pin>
+            <Pin Index="0" Port="2" BlockPosition="Right">
+                <Label>3</Label>
+            </Pin>
+            <Pin Index="1" Port="3" BlockPosition="Right">
+                <Label>4</Label>
+            </Pin>
+            <Ports>
+                <Port Name="1" Label=""/>
+                <Port Name="2" Label=""/>
+                <Port Name="3" Label=""/>
+                <Port Name="4" Label=""/>
+            </Ports>
+        </Pins>
+        <Pos X="1537.5" Y="1187.5"/>
+        <Label>Tran30GHz.s4p</Label>
+        <Appearance Level="Foreground">
+            <Image IconPosition="BottomLeft" FileName=":/SchematicBlockGraphics/Miscellaneous/Miscellaneous.svg#REFERENCE_ICON">
+                <Size Height="30" Width="30"/>
+            </Image>
+            <Pen Style="SolidLine" Color="#ff000000" Width="1" Cosmetic="1"/>
+            <Brush Style="NoBrush" Color="#ff000000"/>
+        </Appearance>
+        <Appearance Level="Background">
+            <Pen Style="NoPen" Color="#ff000000" Width="1" Cosmetic="0"/>
+            <Brush Style="SolidPattern" Color="#ffffffff"/>
+        </Appearance>
+        <ToolTip>TOUCHSTONE file block TSFILE1</ToolTip>
+    </Block>
+    <Block Id="5" ForeignId="23626292" Class="MSLINE">
+        <Size Height="150" Width="150"/>
+        <Pins Options="" Distribution="Custom">
+            <Pin Index="0" Port="0" BlockPosition="Left">
+                <Label>1</Label>
+            </Pin>
+            <Pin Index="0" Port="1" BlockPosition="Right">
+                <Label>2</Label>
+            </Pin>
+            <Ports>
+                <Port Name="1" Label=""/>
+                <Port Name="2" Label=""/>
+            </Ports>
+        </Pins>
+        <Pos X="925" Y="1250"/>
+        <Appearance Level="Foreground">
+            <Pen Style="NoPen" Color="#ff000000" Width="1" Cosmetic="0"/>
+            <Brush Style="NoBrush" Color="#ff000000"/>
+        </Appearance>
+        <Appearance Level="Background">
+            <Pen Style="NoPen" Color="#ff000000" Width="1" Cosmetic="0"/>
+            <Brush Style="NoBrush" Color="#ff000000"/>
+        </Appearance>
+        <ToolTip>Microstrip line MSLINE1</ToolTip>
+    </Block>
+    <Block Id="6" ForeignId="157213224" Class="MSLINE">
+        <Size Height="150" Width="150"/>
+        <Pins Options="" Distribution="Custom">
+            <Pin Index="0" Port="0" BlockPosition="Left">
+                <Label>1</Label>
+            </Pin>
+            <Pin Index="0" Port="1" BlockPosition="Right">
+                <Label>2</Label>
+            </Pin>
+            <Ports>
+                <Port Name="1" Label=""/>
+                <Port Name="2" Label=""/>
+            </Ports>
+        </Pins>
+        <Pos X="1950" Y="1175"/>
+        <Appearance Level="Foreground">
+            <Pen Style="NoPen" Color="#ff000000" Width="1" Cosmetic="0"/>
+            <Brush Style="NoBrush" Color="#ff000000"/>
+        </Appearance>
+        <Appearance Level="Background">
+            <Pen Style="NoPen" Color="#ff000000" Width="1" Cosmetic="0"/>
+            <Brush Style="NoBrush" Color="#ff000000"/>
+        </Appearance>
+        <ToolTip>Microstrip line MSLINE2</ToolTip>
+    </Block>
+    <Block Id="7" ForeignId="260826472" Class="MSLINE">
+        <Size Height="150" Width="150"/>
+        <Pins Options="" Distribution="Custom">
+            <Pin Index="0" Port="0" BlockPosition="Left">
+                <Label>1</Label>
+            </Pin>
+            <Pin Index="0" Port="1" BlockPosition="Right">
+                <Label>2</Label>
+            </Pin>
+            <Ports>
+                <Port Name="1" Label=""/>
+                <Port Name="2" Label=""/>
+            </Ports>
+        </Pins>
+        <Transform m12="1" m21="-1" m22="0" m11="0"/>
+        <Pos X="1275" Y="875"/>
+        <Appearance Level="Foreground">
+            <Pen Style="NoPen" Color="#ff000000" Width="1" Cosmetic="0"/>
+            <Brush Style="NoBrush" Color="#ff000000"/>
+        </Appearance>
+        <Appearance Level="Background">
+            <Pen Style="NoPen" Color="#ff000000" Width="1" Cosmetic="0"/>
+            <Brush Style="NoBrush" Color="#ff000000"/>
+        </Appearance>
+        <ToolTip>Microstrip line MSLINE3</ToolTip>
+    </Block>
+    <Block Id="8" ForeignId="133968142" Class="MSLINE">
+        <Size Height="150" Width="150"/>
+        <Pins Options="" Distribution="Custom">
+            <Pin Index="0" Port="0" BlockPosition="Left">
+                <Label>1</Label>
+            </Pin>
+            <Pin Index="0" Port="1" BlockPosition="Right">
+                <Label>2</Label>
+            </Pin>
+            <Ports>
+                <Port Name="1" Label=""/>
+                <Port Name="2" Label=""/>
+            </Ports>
+        </Pins>
+        <Transform m12="-1" m21="1" m22="0" m11="0"/>
+        <Pos X="1300" Y="1475"/>
+        <Appearance Level="Foreground">
+            <Pen Style="NoPen" Color="#ff000000" Width="1" Cosmetic="0"/>
+            <Brush Style="NoBrush" Color="#ff000000"/>
+        </Appearance>
+        <Appearance Level="Background">
+            <Pen Style="NoPen" Color="#ff000000" Width="1" Cosmetic="0"/>
+            <Brush Style="NoBrush" Color="#ff000000"/>
+        </Appearance>
+        <ToolTip>Microstrip line MSLINE4</ToolTip>
+    </Block>
+    <Block Id="9" ForeignId="43647660" Class="GND">
+        <Size Height="50" Width="38"/>
+        <Pins Options="" Distribution="Custom">
+            <Pin Index="0" Port="0" BlockPosition="Top"/>
+            <Ports>
+                <Port Name="" Label=""/>
+            </Ports>
+        </Pins>
+        <Pos X="900" Y="650"/>
+        <Appearance Level="Foreground">
+            <Pen Style="NoPen" Color="#ff000000" Width="1" Cosmetic="0"/>
+            <Brush Style="NoBrush" Color="#ff000000"/>
+        </Appearance>
+        <Appearance Level="Background">
+            <Pen Style="NoPen" Color="#ff000000" Width="1" Cosmetic="0"/>
+            <Brush Style="NoBrush" Color="#ff000000"/>
+        </Appearance>
+        <ToolTip>Ground GND1</ToolTip>
+    </Block>
+    <Block Id="10" ForeignId="161980385" Class="GND">
+        <Size Height="50" Width="38"/>
+        <Pins Options="" Distribution="Custom">
+            <Pin Index="0" Port="0" BlockPosition="Top"/>
+            <Ports>
+                <Port Name="" Label=""/>
+            </Ports>
+        </Pins>
+        <Pos X="825" Y="1575"/>
+        <Appearance Level="Foreground">
+            <Pen Style="NoPen" Color="#ff000000" Width="1" Cosmetic="0"/>
+            <Brush Style="NoBrush" Color="#ff000000"/>
+        </Appearance>
+        <Appearance Level="Background">
+            <Pen Style="NoPen" Color="#ff000000" Width="1" Cosmetic="0"/>
+            <Brush Style="NoBrush" Color="#ff000000"/>
+        </Appearance>
+        <ToolTip>Ground GND2</ToolTip>
+    </Block>
+    <Link Id="11">
+        <Connection Pin="0" Ref="2" Type="Pin"/>
+        <Connection Pin="0" Ref="5" Type="Pin"/>
+        <Route>
+            <Pos X="600" Y="1000"/>
+            <Pos X="600" Y="1250"/>
+            <Pos X="830" Y="1250"/>
+        </Route>
+        <Pos X="0" Y="0"/>
+    </Link>
+    <Link Id="12">
+        <Connection Pin="0" Ref="4" Type="Pin"/>
+        <Connection Pin="1" Ref="5" Type="Pin"/>
+        <Route>
+            <Pos X="1405" Y="1150"/>
+            <Pos X="1212.5" Y="1150"/>
+            <Pos X="1212.5" Y="1250"/>
+            <Pos X="1020" Y="1250"/>
+        </Route>
+        <Pos X="0" Y="0"/>
+    </Link>
+    <Link Id="13">
+        <Connection Pin="0" Ref="6" Type="Pin"/>
+        <Connection Pin="1" Ref="4" Type="Pin"/>
+        <Route>
+            <Pos X="1855" Y="1175"/>
+            <Pos X="1762.5" Y="1175"/>
+            <Pos X="1762.5" Y="1310"/>
+            <Pos X="1400" Y="1310"/>
+            <Pos X="1400" Y="1225"/>
+            <Pos X="1405" Y="1225"/>
+        </Route>
+        <Pos X="0" Y="0"/>
+    </Link>
+    <Link Id="14">
+        <Connection Pin="1" Ref="6" Type="Pin"/>
+        <Connection Pin="0" Ref="3" Type="Pin"/>
+        <Route>
+            <Pos X="2045" Y="1175"/>
+            <Pos X="2275" Y="1175"/>
+            <Pos X="2275" Y="1000"/>
+        </Route>
+        <Pos X="0" Y="0"/>
+    </Link>
+    <Link Id="15">
+        <Connection Pin="1" Ref="8" Type="Pin"/>
+        <Connection Pin="3" Ref="4" Type="Pin"/>
+        <Route>
+            <Pos X="1300" Y="1380"/>
+            <Pos X="1300" Y="1342.5"/>
+            <Pos X="1675" Y="1342.5"/>
+            <Pos X="1675" Y="1225"/>
+            <Pos X="1670" Y="1225"/>
+        </Route>
+        <Pos X="0" Y="0"/>
+    </Link>
+    <Link Id="16">
+        <Connection Pin="2" Ref="4" Type="Pin"/>
+        <Connection Pin="1" Ref="7" Type="Pin"/>
+        <Route>
+            <Pos X="1670" Y="1150"/>
+            <Pos X="1675" Y="1150"/>
+            <Pos X="1675" Y="1020"/>
+            <Pos X="1275" Y="1020"/>
+            <Pos X="1275" Y="970"/>
+        </Route>
+        <Pos X="0" Y="0"/>
+    </Link>
+    <Link Id="17">
+        <Connection Pin="0" Ref="7" Type="Pin"/>
+        <Connection Pin="0" Ref="9" Type="Pin"/>
+        <Route>
+            <Pos X="1275" Y="780"/>
+            <Pos X="1275" Y="625"/>
+            <Pos X="900" Y="625"/>
+            <Pos X="900" Y="630"/>
+        </Route>
+        <Pos X="0" Y="0"/>
+    </Link>
+    <Link Id="18">
+        <Connection Pin="0" Ref="8" Type="Pin"/>
+        <Connection Pin="0" Ref="10" Type="Pin"/>
+        <Route>
+            <Pos X="1300" Y="1570"/>
+            <Pos X="1300" Y="1575"/>
+            <Pos X="1034.5" Y="1575"/>
+            <Pos X="1034.5" Y="1550"/>
+            <Pos X="825" Y="1550"/>
+            <Pos X="825" Y="1555"/>
+        </Route>
+        <Pos X="0" Y="0"/>
+    </Link>
+</SchematicTopology>

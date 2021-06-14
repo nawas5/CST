@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SchematicTopology Version="2.5" Seed="19" Grid="25">
+    <BasePath>C:\Users\Mosolok\Downloads\tum_masalkova\SP\SP2\Model\DS</BasePath>
+    <Block Id="1" ForeignId="158915898" Class="MWSSCHEM" ImageIndex="1">
+        <Size Height="375" Width="300"/>
+        <Pins Options="" Distribution="Optimal">
+            <Pin Index="0" Port="0" BlockPosition="Left">
+                <Label>1</Label>
+            </Pin>
+            <Pin Index="0" Port="2" BlockPosition="Right">
+                <Label>3</Label>
+            </Pin>
+            <Pin Index="2" Port="1" BlockPosition="Top">
+                <Label>2</Label>
+            </Pin>
+            <Pin Index="1" Port="3" BlockPosition="Right">
+                <Label>4</Label>
+            </Pin>
+            <Pin Index="0" Port="4" BlockPosition="Top">
+                <Label>5</Label>
+            </Pin>
+            <Pin Index="3" Port="5" BlockPosition="Right">
+                <Label>6</Label>
+            </Pin>
+            <Pin Index="1" Port="6" BlockPosition="Bottom">
+                <Label>7</Label>
+            </Pin>
+            <Pin Index="1" Port="7" BlockPosition="Top">
+                <Label>8</Label>
+            </Pin>
+            <Ports>
+                <Port Name="1" Label=""/>
+                <Port Name="2" Label=""/>
+                <Port Name="3" Label=""/>
+                <Port Name="4" Label=""/>
+                <Port Name="5" Label=""/>
+                <Port Name="6" Label=""/>
+                <Port Name="7" Label=""/>
+                <Port Name="8" Label=""/>
+            </Ports>
+        </Pins>
+        <Image FileName="../3D/Model.dib" Scale="AutoFit">
+            <Size Height="392" Width="512"/>
+        </Image>
+        <Pos X="925" Y="1262.5"/>
+        <Appearance Level="Foreground">
+            <Pen Style="SolidLine" Color="#ff000000" Width="1" Cosmetic="1"/>
+            <Brush Style="NoBrush" Color="#ff000000"/>
+        </Appearance>
+        <Appearance Level="Background">
+            <Pen Style="NoPen" Color="#ff000000" Width="1" Cosmetic="0"/>
+            <Brush Style="SolidPattern" Color="#ffffffff"/>
+        </Appearance>
+        <ToolTip>CST MICROWAVE STUDIO schematic block MWSSCHEM1</ToolTip>
+    </Block>
+    <Block Id="3" ForeignId="495012375" Class="EXTPORT" Flags="NotResizable">
+        <Size Height="50" Width="100"/>
+        <Pins ExtendedDistribution="1" Options="">
+            <Pin Index="0" Port="0" BlockPosition="Center"/>
+            <Ports>
+                <Port Name="" Label=""/>
+            </Ports>
+        </Pins>
+        <Pos X="600" Y="975"/>
+        <Label>1</Label>
+        <ToolTip>External Port 1</ToolTip>
+    </Block>
+    <Block Id="4" ForeignId="299512340" Class="EXTPORT" Flags="NotResizable">
+        <Size Height="50" Width="100"/>
+        <Pins ExtendedDistribution="1" Options="">
+            <Pin Index="0" Port="0" BlockPosition="Center"/>
+            <Ports>
+                <Port Name="" Label=""/>
+            </Ports>
+        </Pins>
+        <Pos X="2275" Y="975"/>
+        <Label>2</Label>
+        <ToolTip>External Port 2</ToolTip>
+    </Block>
+    <Block Id="5" ForeignId="397321652" Class="TSFILE">
+        <Size Height="225" Width="225"/>
+        <Pins Options="" Distribution="Custom">
+            <Pin Index="0" Port="0" BlockPosition="Left">
+                <Label>1</Label>
+            </Pin>
+            <Pin Index="1" Port="1" BlockPosition="Left">
+                <Label>2</Label>
+            </Pin>
+            <Pin Index="0" Port="2" BlockPosition="Right">
+                <Label>3</Label>
+            </Pin>
+            <Pin Index="1" Port="3" BlockPosition="Right">
+                <Label>4</Label>
+            </Pin>
+            <Ports>
+                <Port Name="1" Label=""/>
+                <Port Name="2" Label=""/>
+                <Port Name="3" Label=""/>
+                <Port Name="4" Label=""/>
+            </Ports>
+        </Pins>
+        <Pos X="1537.5" Y="1187.5"/>
+        <Label>Tran30GHz.s4p</Label>
+        <ToolTip>TOUCHSTONE file block TSFILE1</ToolTip>
+    </Block>
+    <Block Id="10" ForeignId="43647660" Class="GND">
+        <Size Height="50" Width="38"/>
+        <Pins Options="" Distribution="Custom">
+            <Pin Index="0" Port="0" BlockPosition="Top"/>
+            <Ports>
+                <Port Name="" Label=""/>
+            </Ports>
+        </Pins>
+        <Pos X="900" Y="650"/>
+        <ToolTip>Ground GND1</ToolTip>
+    </Block>
+    <Block Id="11" ForeignId="161980385" Class="GND">
+        <Size Height="50" Width="38"/>
+        <Pins Options="" Distribution="Custom">
+            <Pin Index="0" Port="0" BlockPosition="Top"/>
+            <Ports>
+                <Port Name="" Label=""/>
+            </Ports>
+        </Pins>
+        <Pos X="825" Y="1575"/>
+        <ToolTip>Ground GND2</ToolTip>
+    </Block>
+    <Link Id="12">
+        <Connection Pin="0" Ref="3" Type="Pin"/>
+        <Connection Pin="0" Ref="1" Type="Pin"/>
+        <Route>
+            <Pos X="600" Y="1000"/>
+            <Pos X="600" Y="1150"/>
+            <Pos X="755" Y="1150"/>
+        </Route>
+        <Pos X="0" Y="0"/>
+    </Link>
+    <Link Id="13">
+        <Connection Pin="0" Ref="5" Type="Pin"/>
+        <Connection Pin="1" Ref="1" Type="Pin"/>
+        <Route>
+            <Pos X="1405" Y="1150"/>
+            <Pos X="1095" Y="1150"/>
+        </Route>
+        <Pos X="0" Y="0"/>
+    </Link>
+    <Link Id="14">
+        <Connection Pin="3" Ref="1" Type="Pin"/>
+        <Connection Pin="1" Ref="5" Type="Pin"/>
+        <Route>
+            <Pos X="1095" Y="1225"/>
+            <Pos X="1405" Y="1225"/>
+        </Route>
+        <Pos X="0" Y="0"/>
+    </Link>
+    <Link Id="15">
+        <Connection Pin="0" Ref="4" Type="Pin"/>
+        <Connection Pin="2" Ref="1" Type="Pin"/>
+        <Route>
+            <Pos X="2225" Y="975"/>
+            <Pos X="1000" Y="975"/>
+            <Pos X="1000" Y="1055"/>
+        </Route>
+        <Pos X="0" Y="0"/>
+    </Link>
+    <Link Id="16">
+        <Connection Pin="7" Ref="1" Type="Pin"/>
+        <Connection Pin="3" Ref="5" Type="Pin"/>
+        <Route>
+            <Pos X="925" Y="1055"/>
+            <Pos X="925" Y="1050"/>
+            <Pos X="1675" Y="1050"/>
+            <Pos X="1675" Y="1225"/>
+            <Pos X="1670" Y="1225"/>
+        </Route>
+        <Pos X="0" Y="0"/>
+    </Link>
+    <Link Id="17">
+        <Connection Pin="2" Ref="5" Type="Pin"/>
+        <Connection Pin="5" Ref="1" Type="Pin"/>
+        <Route>
+            <Pos X="1670" Y="1150"/>
+            <Pos X="1699.99999975" Y="1150"/>
+            <Pos X="1699.99999975" Y="1375"/>
+            <Pos X="1095" Y="1375"/>
+        </Route>
+        <Pos X="0" Y="0"/>
+    </Link>
+    <Link Id="18">
+        <Connection Pin="4" Ref="1" Type="Pin"/>
+        <Connection Pin="0" Ref="10" Type="Pin"/>
+        <Route>
+            <Pos X="850" Y="1055"/>
+            <Pos X="850" Y="625"/>
+            <Pos X="900" Y="625"/>
+            <Pos X="900" Y="630"/>
+        </Route>
+        <Pos X="0" Y="0"/>
+    </Link>
+    <Link Id="19">
+        <Connection Pin="6" Ref="1" Type="Pin"/>
+        <Connection Pin="0" Ref="11" Type="Pin"/>
+        <Route>
+            <Pos X="925" Y="1470"/>
+            <Pos X="925" Y="1512.5"/>
+            <Pos X="825" Y="1512.5"/>
+            <Pos X="825" Y="1555"/>
+        </Route>
+        <Pos X="0" Y="0"/>
+    </Link>
+</SchematicTopology>

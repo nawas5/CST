@@ -1,0 +1,13 @@
+Algorithm: Interpolated Quasi Newton
+Pass 1 / 1
+
+Number of evaluations: 21
+              (solver: 11, interpolation: 10)
+Initial goal function value = 3.56677662091
+Best goal function value    = 0
+Last goal function value    = 0
+
+Best parameters so far:
+
+ Length = 3.0625
+ Width = 8.34524

@@ -1,0 +1,88 @@
+20100312
+[start]block
+[start]MSLINE4
+[start]sat
+\block\MSLINE4.sab
+[end]sat
+[start]mif
+\block\MSLINE4.mif
+[end]mif
+[start]scale
+0.001
+[end]scale
+[start]vector
+"0", "0", "0"
+[end]vector
+[start]matrix
+"1", "0", "0", "0", "1", "0", "0", "0", "1"
+[end]matrix
+[end]MSLINE4
+[start]MSLINE2
+[start]sat
+\block\MSLINE2.sab
+[end]sat
+[start]mif
+\block\MSLINE2.mif
+[end]mif
+[start]scale
+0.001
+[end]scale
+[start]vector
+"0", "0", "0"
+[end]vector
+[start]matrix
+"1", "0", "0", "0", "1", "0", "0", "0", "1"
+[end]matrix
+[end]MSLINE2
+[start]MSLINE1
+[start]sat
+\block\MSLINE1.sab
+[end]sat
+[start]mif
+\block\MSLINE1.mif
+[end]mif
+[start]scale
+0.001
+[end]scale
+[start]vector
+"0", "0", "0"
+[end]vector
+[start]matrix
+"1", "0", "0", "0", "1", "0", "0", "0", "1"
+[end]matrix
+[end]MSLINE1
+[start]MSLINE3
+[start]sat
+\block\MSLINE3.sab
+[end]sat
+[start]mif
+\block\MSLINE3.mif
+[end]mif
+[start]scale
+0.001
+[end]scale
+[start]vector
+"0", "0", "0"
+[end]vector
+[start]matrix
+"1", "0", "0", "0", "1", "0", "0", "0", "1"
+[end]matrix
+[end]MSLINE3
+[start]MSREF1
+[start]sat
+\block\MSREF1.sab
+[end]sat
+[start]mif
+\block\MSREF1.mif
+[end]mif
+[start]scale
+0.001
+[end]scale
+[start]vector
+"0", "0", "0"
+[end]vector
+[start]matrix
+"1", "0", "0", "0", "1", "0", "0", "0", "1"
+[end]matrix
+[end]MSREF1
+[end]block

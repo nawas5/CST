@@ -1,0 +1,21 @@
+[Version]
+2
+[ProjectVersion]
+'# MWS Version: Version 2020.1 - Oct 21 2019 - ACIS 29.0.1 -
+[Author]
+Gleb
+[Mesh Cells]
+19,395
+[Mesh Type]
+Tetrahedral
+[Last Problem Type]
+High Frequency
+[Last Solver Type]
+HF Frequency Domain
+[Last Solver Type Abb]
+f
+[Results]
+Frequency Domain: S-Parameter
+[Modeler Unique ID]
+5:natasha_var21.cst?0891d72c12ca7e91fcfd2d5c49f3e160?163829:numberofparameters=8:port=1>mode=1>zre=0>zim=0:fport=zmax>fmode=1>zre=0>zim=0?fport=zmax>fmode=2>zre=0>zim=0::heigthsubstract?lengthground?lengthpatch?phi?teta?theta?widthground?widthpatch
+[Comment]

@@ -1,0 +1,18 @@
+{
+    "mapping": [
+        {
+            "master": "coord",
+            "sp": "coord"
+        },
+        {
+            "master": "length",
+            "sp": "length"
+        },
+        {
+            "master": "width",
+            "sp": "width"
+        }
+    ],
+    "pending_renames": null,
+    "version": 2
+}

@@ -1,0 +1,19 @@
+@CACHEFILEVERSION 2
+@DOUBLE
+-lengthpatch/2#
+-2.124
+-widthpatch/2#
+-1.024
+heigthsubstract
+1.8
+heigthsubstract + 0.1#
+1.9
+lengthpatch/2#
+2.124
+phi
+90
+teta
+0
+widthpatch/2#
+1.024
+@LONG

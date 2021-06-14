@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MetaGeometryFile creator="MatrixCalc" version="20181214">
+  <Components>
+    <Shape name="Components\MSLINE1:MSLINE1" id="1" visible="1" material="MSLINE1/Metal" line_material="">
+      <MeshGroup0D list=""/>
+      <MeshGroup1D list=""/>
+      <MeshGroup2D>
+        <Pos list=""/>
+        <Neg list=""/>
+        <DS list="1"/>
+      </MeshGroup2D>
+      <MeshGroup3D list=""/>
+    </Shape>
+    <Shape name="Components\MSLINE2:MSLINE2" id="2" visible="1" material="MSLINE2/Metal" line_material="">
+      <MeshGroup0D list=""/>
+      <MeshGroup1D list=""/>
+      <MeshGroup2D>
+        <Pos list=""/>
+        <Neg list=""/>
+        <DS list="2"/>
+      </MeshGroup2D>
+      <MeshGroup3D list=""/>
+    </Shape>
+    <Shape name="Components\MSLINE3:MSLINE3" id="3" visible="1" material="MSLINE3/Metal" line_material="">
+      <MeshGroup0D list=""/>
+      <MeshGroup1D list=""/>
+      <MeshGroup2D>
+        <Pos list=""/>
+        <Neg list=""/>
+        <DS list="3"/>
+      </MeshGroup2D>
+      <MeshGroup3D list=""/>
+    </Shape>
+    <Shape name="Components\MSLINE4:MSLINE4" id="4" visible="1" material="MSLINE4/Metal" line_material="">
+      <MeshGroup0D list=""/>
+      <MeshGroup1D list=""/>
+      <MeshGroup2D>
+        <Pos list=""/>
+        <Neg list=""/>
+        <DS list="4"/>
+      </MeshGroup2D>
+      <MeshGroup3D list=""/>
+    </Shape>
+    <Shape name="Components\MSREF1:GND_Bottom" id="5" visible="1" material="MSREF1/GND" line_material="">
+      <MeshGroup0D list=""/>
+      <MeshGroup1D list=""/>
+      <MeshGroup2D>
+        <Pos list=""/>
+        <Neg list=""/>
+        <DS list="5"/>
+      </MeshGroup2D>
+      <MeshGroup3D list=""/>
+    </Shape>
+    <Shape name="Components\MSREF1:Substrate" id="6" visible="1" material="MSREF1/Substrate" line_material="">
+      <MeshGroup0D list=""/>
+      <MeshGroup1D list=""/>
+      <MeshGroup2D>
+        <Pos list="6 7 8 9 10 11"/>
+        <Neg list=""/>
+        <DS list=""/>
+      </MeshGroup2D>
+      <MeshGroup3D list=""/>
+    </Shape>
+    <Shape name="Ports\port1" id="7" visible="1" material="$PortFaceMaterial$" line_material="">
+      <MeshGroup0D list=""/>
+      <MeshGroup1D list=""/>
+      <MeshGroup2D>
+        <Pos list=""/>
+        <Neg list=""/>
+        <DS list="12"/>
+      </MeshGroup2D>
+      <MeshGroup3D list=""/>
+    </Shape>
+    <Shape name="Ports\port2" id="8" visible="1" material="$PortFaceMaterial$" line_material="">
+      <MeshGroup0D list=""/>
+      <MeshGroup1D list=""/>
+      <MeshGroup2D>
+        <Pos list=""/>
+        <Neg list=""/>
+        <DS list="13"/>
+      </MeshGroup2D>
+      <MeshGroup3D list=""/>
+    </Shape>
+    <Shape name="Ports\port3" id="9" visible="1" material="$PortFaceMaterial$" line_material="">
+      <MeshGroup0D list=""/>
+      <MeshGroup1D list=""/>
+      <MeshGroup2D>
+        <Pos list=""/>
+        <Neg list=""/>
+        <DS list="14"/>
+      </MeshGroup2D>
+      <MeshGroup3D list=""/>
+    </Shape>
+    <Shape name="Ports\port4" id="10" visible="1" material="$PortFaceMaterial$" line_material="">
+      <MeshGroup0D list=""/>
+      <MeshGroup1D list=""/>
+      <MeshGroup2D>
+        <Pos list=""/>
+        <Neg list=""/>
+        <DS list="15"/>
+      </MeshGroup2D>
+      <MeshGroup3D list=""/>
+    </Shape>
+    <Shape name="Ports\port5" id="11" visible="1" material="$PortFaceMaterial$" line_material="">
+      <MeshGroup0D list=""/>
+      <MeshGroup1D list=""/>
+      <MeshGroup2D>
+        <Pos list=""/>
+        <Neg list=""/>
+        <DS list="16"/>
+      </MeshGroup2D>
+      <MeshGroup3D list=""/>
+    </Shape>
+    <Shape name="Ports\port6" id="12" visible="1" material="$PortFaceMaterial$" line_material="">
+      <MeshGroup0D list=""/>
+      <MeshGroup1D list=""/>
+      <MeshGroup2D>
+        <Pos list=""/>
+        <Neg list=""/>
+        <DS list="17"/>
+      </MeshGroup2D>
+      <MeshGroup3D list=""/>
+    </Shape>
+    <Shape name="Ports\port7" id="13" visible="1" material="$PortFaceMaterial$" line_material="">
+      <MeshGroup0D list=""/>
+      <MeshGroup1D list=""/>
+      <MeshGroup2D>
+        <Pos list=""/>
+        <Neg list=""/>
+        <DS list="18"/>
+      </MeshGroup2D>
+      <MeshGroup3D list=""/>
+    </Shape>
+    <Shape name="Ports\port8" id="14" visible="1" material="$PortFaceMaterial$" line_material="">
+      <MeshGroup0D list=""/>
+      <MeshGroup1D list=""/>
+      <MeshGroup2D>
+        <Pos list=""/>
+        <Neg list=""/>
+        <DS list="19"/>
+      </MeshGroup2D>
+      <MeshGroup3D list=""/>
+    </Shape>
+  </Components>
+  <SimulationDomain min="-8.019494056702 -8.019494056702 0" max="8.019494056702 8.019494056702 7"/>
+  <Materials>
+    <Material name="air_0" priority="1">
+      <Drawstyle color="1 1 1" linestrength="1" transparency="0"/>
+    </Material>
+    <Material name="MSLINE1/Metal" priority="1">
+      <Drawstyle color="1 1 1" linestrength="1" transparency="0"/>
+    </Material>
+    <Material name="MSLINE2/Metal" priority="1">
+      <Drawstyle color="1 1 1" linestrength="1" transparency="0"/>
+    </Material>
+    <Material name="MSLINE3/Metal" priority="1">
+      <Drawstyle color="1 1 1" linestrength="1" transparency="0"/>
+    </Material>
+    <Material name="MSLINE4/Metal" priority="1">
+      <Drawstyle color="1 1 1" linestrength="1" transparency="0"/>
+    </Material>
+    <Material name="MSREF1/GND" priority="1">
+      <Drawstyle color="1 1 1" linestrength="1" transparency="0"/>
+    </Material>
+    <Material name="MSREF1/Substrate" priority="1">
+      <Drawstyle color="1 1 1" linestrength="1" transparency="0"/>
+    </Material>
+    <Material name="PEC" priority="1">
+      <Drawstyle color="1 1 1" linestrength="1" transparency="0"/>
+    </Material>
+  </Materials>
+  <GeometryFile filename="3d.slm" type="slim" subdomain_id=""/>
+  <MeshType type="HEX"/>
+  <Groups/>
+  <HexMesh>
+    <Dimensions nx="71" ny="71" nz="20"/>
+    <MeshPlanesX values="-8.019494305859 -7.819494305859 -7.619494305859 -7.419494305859 -7.21949430586 -7.01949430586 -6.792940015669 -6.566385725478 -6.339831435287 -6.113277145096 -5.886722854904 -5.660168564713 -5.433614274522 -5.207059984331 -4.98050569414 -4.741699418504 -4.502893142869 -4.264086867233 -4.025280591597 -3.786474315961 -3.547668040326 -3.30886176469 -3.072514495784 -2.836167226877 -2.599819957971 -2.363472689064 -2.127125420158 -1.890778151251 -1.654430882345 -1.418083613439 -1.181736344532 -0.9453890756257 -0.7090418067193 -0.4726945378129 -0.2363472689064 -7.891257092218e-15 0.2363472689064 0.4726945378128 0.7090418067193 0.9453890756257 1.181736344532 1.418083613439 1.654430882345 1.890778151251 2.127125420158 2.363472689064 2.599819957971 2.836167226877 3.072514495784 3.30886176469 3.547668040326 3.786474315961 4.025280591597 4.264086867233 4.502893142869 4.741699418504 4.98050569414 5.207059984331 5.433614274522 5.660168564713 5.886722854904 6.113277145096 6.339831435287 6.566385725478 6.792940015669 7.01949430586 7.21949430586 7.419494305859 7.619494305859 7.819494305859 8.019494305859"/>
+    <MeshPlanesY values="-8.019494305859 -7.819494305859 -7.619494305859 -7.41949430586 -7.21949430586 -7.01949430586 -6.792940015669 -6.566385725478 -6.339831435287 -6.113277145096 -5.886722854905 -5.660168564714 -5.433614274522 -5.207059984331 -4.98050569414 -4.741699418504 -4.502893142869 -4.264086867233 -4.025280591597 -3.786474315961 -3.547668040326 -3.30886176469 -3.072514495784 -2.836167226877 -2.599819957971 -2.363472689064 -2.127125420158 -1.890778151251 -1.654430882345 -1.418083613439 -1.181736344532 -0.9453890756257 -0.7090418067193 -0.4726945378129 -0.2363472689064 -7.892991815694e-15 0.2363472689064 0.4726945378128 0.7090418067193 0.9453890756257 1.181736344532 1.418083613439 1.654430882345 1.890778151251 2.127125420158 2.363472689064 2.599819957971 2.836167226877 3.072514495784 3.30886176469 3.547668040326 3.786474315961 4.025280591597 4.264086867233 4.502893142868 4.741699418504 4.980505694139 5.20705998433 5.433614274522 5.660168564713 5.886722854904 6.113277145095 6.339831435286 6.566385725477 6.792940015668 7.019494305859 7.219494305859 7.419494305859 7.61949430586 7.81949430586 8.01949430586"/>
+    <MeshPlanesZ values="0 0.2 0.4 0.6 0.8 1 1.245530049847 1.491060099694 1.736590149542 2.184943871631 2.666449484468 3.147955097305 3.629460710142 4.110966322979 4.592471935816 5.073977548652 5.555483161489 6.036988774326 6.518494387163 7"/>
+  </HexMesh>
+</MetaGeometryFile>

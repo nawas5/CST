@@ -1,0 +1,25 @@
+{
+    "parameter sweep": {
+        "options": {
+            "restore parameter values after run": "false",
+            "simulation type": "Frequency",
+            "skip existing combinations": "true",
+            "start active solver": "false"
+        },
+        "sequences": {
+            "Sequence 1": [
+                {
+                    "from": "0",
+                    "samples": "10",
+                    "to": "89",
+                    "type": "linear",
+                    "varname": "teta"
+                },
+                {
+                    "index": 1
+                }
+            ]
+        },
+        "version": 1
+    }
+}

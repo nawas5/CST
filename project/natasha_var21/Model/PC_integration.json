@@ -1,0 +1,68 @@
+{
+   "execution": {
+      "classname": "SMAPowerByEmagHPCFrame",
+      "libname": "SMAPowerByEmagUI"
+   },
+   "inputVariables": [
+      {
+         "name": "phi",
+         "type": "float",
+         "value": 90.0
+      },
+      {
+         "name": "theta",
+         "type": "float",
+         "value": 0.0
+      },
+      {
+         "name": "teta",
+         "type": "float",
+         "value": 89.0
+      },
+      {
+         "name": "lengthpatch",
+         "type": "float",
+         "value": 5.358
+      },
+      {
+         "name": "widthpatch",
+         "type": "float",
+         "value": 2.322
+      },
+      {
+         "name": "lengthground",
+         "type": "float",
+         "value": 9.24
+      },
+      {
+         "name": "heigthsubstract",
+         "type": "float",
+         "value": 1.8
+      },
+      {
+         "name": "widthground",
+         "type": "float",
+         "value": 7.35
+      }
+   ],
+   "outputVariables": [
+      {
+         "len": 1,
+         "name": "3D\\S1(1),1(1)_0D_Mean",
+         "type": "float",
+         "value": 0.9709414680972572
+      },
+      {
+         "len": 1,
+         "name": "3D\\SZmax(1),1(1)_0D_Mean",
+         "type": "float",
+         "value": 0.0838685352660678
+      },
+      {
+         "len": 1,
+         "name": "3D\\SZmax(2),1(1)_0D_Mean",
+         "type": "float",
+         "value": 0.10262600568096242
+      }
+   ]
+}

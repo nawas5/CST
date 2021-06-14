@@ -1,0 +1,62 @@
+{
+   "execution": {
+      "classname": "SMAPowerByEmagHPCFrame",
+      "libname": "SMAPowerByEmagUI"
+   },
+   "inputVariables": [
+      {
+         "name": "theta",
+         "type": "float",
+         "value": 20.0
+      },
+      {
+         "name": "phi",
+         "type": "float",
+         "value": 90.0
+      },
+      {
+         "name": "D_Viva1",
+         "type": "float",
+         "value": -10.25
+      },
+      {
+         "name": "D_Viva2",
+         "type": "float",
+         "value": 10.25
+      },
+      {
+         "name": "S_Viva",
+         "type": "float",
+         "value": 37.0
+      },
+      {
+         "name": "T_Viva",
+         "type": "float",
+         "value": 0.5
+      },
+      {
+         "name": "T_Vibrator",
+         "type": "float",
+         "value": 0.2
+      },
+      {
+         "name": "teta",
+         "type": "float",
+         "value": 30.0
+      }
+   ],
+   "outputVariables": [
+      {
+         "len": 1,
+         "name": "3D\\S1(1),1(1)_0D_Mean",
+         "type": "float",
+         "value": 0.3436508719905573
+      },
+      {
+         "len": 1,
+         "name": "3D\\SZmax(1),1(1)_0D_Mean",
+         "type": "float",
+         "value": -0.010576582120227468
+      }
+   ]
+}

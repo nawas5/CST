@@ -1,0 +1,21 @@
+Postprocessing Logfile 
+
+----------------------------------------------------------------------------------------
+Units settings: 
+
+  Dimensions: mm
+  Frequency:  GHz
+  Time:       ns
+
+----------------------------------------------------------------------------------------
+
+Template based postprocessing started at: 10:39 PM Sunday, 13. June 2021
+
+  Evaluating 'S1(1),1(1)_0D_Mean': 0 s
+  Evaluating 'SZmax(1),1(1)_0D_Mean': 0 s
+  Evaluating 'SZmax(2),1(1)_0D_Mean': 0 s
+
+  Total time: 0 s  ( = 0 h, 0 m, 0 s )
+
+Template based postprocessing finished at: 10:39 PM Sunday, 13. June 2021
+----------------------------------------------------------------------------------------

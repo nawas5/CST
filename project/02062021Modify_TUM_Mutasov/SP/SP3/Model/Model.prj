@@ -1,0 +1,21 @@
+[Version]
+2
+[ProjectVersion]
+'# MWS Version: Version 2020.1 - Oct 21 2019 - ACIS 29.0.1 -
+[Author]
+Gleb
+[Mesh Cells]
+152,190
+[Mesh Type]
+Hexahedral
+[Last Problem Type]
+High Frequency
+[Last Solver Type]
+HF Time Domain
+[Last Solver Type Abb]
+t
+[Results]
+Time Domain: S-Parameter
+[Modeler Unique ID]
+5:sp3.cst?e1ec1587d28bc7fd377a91036f99249e?22869:numberofparameters=0:port=1>mode=1>zre=0>zim=0?port=2>mode=1>zre=0>zim=0?port=3>mode=1>zre=0>zim=0?port=4>mode=1>zre=0>zim=0?port=5>mode=1>zre=0>zim=0?port=6>mode=1>zre=0>zim=0?port=7>mode=1>zre=0>zim=0?port=8>mode=1>zre=0>zim=0::msref1.mif^3d.sab>6f53495ac9ee7d38614143992b602f8d>14387?msline4.mif^3d.sab>50c7f843d3d4ce9854eb64398f3a55c5>10477?msline3.mif^3d.sab>7d09a12ba50e96689ea3cb5963f552e0>10477?msline2.mif^3d.sab>f00426aad7823cab04338830d61ae03d>10477?msline1.mif^3d.sab>d006c0c665d4fb5310b36d3f4d312da7>20958
+[Comment]

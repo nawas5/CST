@@ -1,0 +1,177 @@
+{
+    "parameters": [
+        {
+            "expr": "c0/frequency_minimum",
+            "name": "wavelength_fmin",
+            "value": "19.9861638666667"
+        },
+        {
+            "expr": "c0/frequency_maximum",
+            "name": "wavelength_fmax",
+            "value": "11.1034243703704"
+        },
+        {
+            "expr": "asin(slotline_width/cavity_diameter)",
+            "name": "theta",
+            "value": "4.39903852502986e-02"
+        },
+        {
+            "descr": "Factor determining the opening rate of the flare (converted according to the current model units)",
+            "expr": "taper_factor/conversion_factor",
+            "name": "taper_factor_corrected",
+            "value": "0.1037"
+        },
+        {
+            "descr": "Factor determining the opening rate of the flare (displayed value calculated in an SI system)",
+            "expr": "103.7",
+            "name": "taper_factor",
+            "value": "103.7"
+        },
+        {
+            "descr": "Loss tangent of the substrate",
+            "expr": "0",
+            "name": "tan_delta",
+            "value": "0"
+        },
+        {
+            "descr": "Substrate height",
+            "expr": "0.183606557377049",
+            "name": "substrate_height",
+            "value": "0.183606557377049"
+        },
+        {
+            "descr": "Starting angle of the microstrip stub",
+            "expr": "90",
+            "name": "stub_start_angle",
+            "value": "90"
+        },
+        {
+            "descr": "Radius of the microstrip stub",
+            "expr": "1.63638507335576",
+            "name": "stub_radius",
+            "value": "1.63638507335576"
+        },
+        {
+            "descr": "Angle of the microstrip stub",
+            "expr": "80",
+            "name": "stub_angle",
+            "value": "80"
+        },
+        {
+            "descr": "Width of the slotline",
+            "expr": "0.095422294333159",
+            "name": "slotline_width",
+            "value": "0.095422294333159"
+        },
+        {
+            "descr": "Length of slotline",
+            "expr": "0.128674778850921",
+            "name": "slotline_length",
+            "value": "0.128674778850921"
+        },
+        {
+            "descr": "Dielectric constant of the substrate",
+            "expr": "3.27",
+            "name": "relative_permittivity",
+            "value": "3.27"
+        },
+        {
+            "expr": "15",
+            "name": "num_ff_monitors",
+            "value": "15"
+        },
+        {
+            "descr": "Width of the tapered microstrip line at the port",
+            "expr": "0.43504840522631",
+            "name": "microstrip_taper_width",
+            "value": "0.43504840522631"
+        },
+        {
+            "descr": "Length of tapered microstrip line",
+            "expr": "4.74108327236788",
+            "name": "microstrip_taper_length",
+            "value": "4.74108327236788"
+        },
+        {
+            "descr": "Width of microstrip coupler",
+            "expr": "0.128674778850921",
+            "name": "microstrip_coupler_width",
+            "value": "0.128674778850921"
+        },
+        {
+            "descr": "Length of microstrip coupler",
+            "expr": "2.16986227510254",
+            "name": "microstrip_coupler_length",
+            "value": "2.16986227510254"
+        },
+        {
+            "descr": "Distance form cavity to the centre of the microstrip coupler",
+            "expr": "0.0643373894254607",
+            "name": "microstrip_coupler_inset",
+            "value": "0.0643373894254607"
+        },
+        {
+            "expr": "0.0005*wavelength_fmax",
+            "name": "metal_thickness",
+            "value": "5.5517121851852e-03"
+        },
+        {
+            "descr": "Minimum frequency",
+            "expr": "15",
+            "name": "frequency_minimum",
+            "value": "15"
+        },
+        {
+            "descr": "Maximum frequency",
+            "expr": "27",
+            "name": "frequency_maximum",
+            "value": "27"
+        },
+        {
+            "expr": "(frequency_minimum+frequency_maximum)/2",
+            "name": "frequency_centre",
+            "value": "21"
+        },
+        {
+            "descr": "Flare length",
+            "expr": "30.3550704821601",
+            "name": "flare_length",
+            "value": "30.3550704821601"
+        },
+        {
+            "descr": "Flare height",
+            "expr": "15.9002750144648",
+            "name": "flare_height",
+            "value": "15.9002750144648"
+        },
+        {
+            "descr": "Height of the conductor",
+            "expr": "20.2367136547734",
+            "name": "conductor_height",
+            "value": "20.2367136547734"
+        },
+        {
+            "descr": "Cavity diameter",
+            "expr": "2.16986227510254",
+            "name": "cavity_diameter",
+            "value": "2.16986227510254"
+        },
+        {
+            "expr": "0.5*cavity_diameter-0.5*cavity_diameter*cos(theta)",
+            "name": "cavity_adjust",
+            "value": "1.04958513682751e-03"
+        },
+        {
+            "descr": "Speed of light (corrected for the model units)",
+            "expr": "CLight*1E-06",
+            "name": "c0",
+            "value": "299.792458"
+        },
+        {
+            "expr": "Units.GetGeometrySIToUnit",
+            "name": "conversion_factor",
+            "value": "1000"
+        }
+    ],
+    "version": 1
+}

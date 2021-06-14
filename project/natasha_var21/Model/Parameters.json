@@ -1,0 +1,48 @@
+{
+    "parameters": [
+        {
+            "descr": "spherical angle of incident plane wave",
+            "expr": "90",
+            "name": "phi",
+            "value": "90"
+        },
+        {
+            "descr": "spherical angle of incident plane wave",
+            "expr": "0",
+            "name": "theta",
+            "value": "0"
+        },
+        {
+            "descr": "Угол сканирования (места)",
+            "expr": "89",
+            "name": "teta",
+            "value": "89"
+        },
+        {
+            "expr": "5.358",
+            "name": "lengthpatch",
+            "value": "5.358"
+        },
+        {
+            "expr": "2.322",
+            "name": "widthpatch",
+            "value": "2.322"
+        },
+        {
+            "expr": "9.24",
+            "name": "lengthground",
+            "value": "9.24"
+        },
+        {
+            "expr": "1.8",
+            "name": "heigthsubstract",
+            "value": "1.8"
+        },
+        {
+            "expr": "7.35",
+            "name": "widthground",
+            "value": "7.35"
+        }
+    ],
+    "version": 1
+}

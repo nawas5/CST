@@ -1,0 +1,1164 @@
+13/Jun/2021 18:43:17  *** Warning ***
+                      
+                      A multilayer background with a non-Normal background material was detected. The
+                      farfield calculation for the currently chosen solver does not support this. A
+                      homogeneous background will be assumed for the farfield calculation, the
+                      resulting farfield may be misleading.
+                      
+                      ------------------------------------------------------------------------------
+13/Jun/2021 18:43:17  The following farfield monitor(s) have been adjusted to model box [-8.01949,
+                      8.01949, -8.01949, 8.01949, 0, 1.24553].
+                        farfield (f=16). More...
+                      
+                      ------------------------------------------------------------------------------
+13/Jun/2021 18:43:18  
+                      Solver started at: 06:43 PM Sunday, 13. June 2021 (RTZ 2 (зима))
+                      
+                        Module:  Time Domain: S-Parameter (Win 64)
+                        Version: 2020.1 Release from 2019-10-21 (change 729620)
+                      
+
+                      ------------------------------------------------------------------------------
+
+                      ------------------------------------------------------------------------------
+13/Jun/2021 18:43:18  ======================================================================
+                       Solver cycle: 1
+                      ======================================================================
+                      
+                      Stimulation at discrete port 1 
+                      
+                      
+                      
+                      ------------------------------------------------------------------------------
+13/Jun/2021 18:43:18  Units settings: 
+                      
+                        Dimensions: mm
+                        Frequency:  GHz
+                        Time:       ns
+                      
+                      ------------------------------------------------------------------------------
+13/Jun/2021 18:43:30  The following discrete face ports are connected to metal material:
+                      	1, 2, 3, 4, 5, 6, 7, 8
+                      
+                      ------------------------------------------------------------------------------
+13/Jun/2021 18:43:30  Mesh statistics:
+                      
+                         Hexahedral mesh type: PBA [Version: default]
+                      
+                         Parallelization type: domain decomposition
+                            Number of parallel working threads: 2
+                            Number of calculation domains used: 2
+                      
+                         Used point accuracy enhancement value: 64.00%.
+13/Jun/2021 18:43:20     current system memory usage reached 50%
+                         PBA fill limit: 99.00% (inverse)
+
+13/Jun/2021 18:43:31  Boundary conditions: 
+                      
+                        YZsymmetry: none
+                        XZsymmetry: none
+                        XYsymmetry: none
+                      
+                        Xmin: open, 4 Layer, depth 0.8 mm
+                        Xmax: open, 4 Layer, depth 0.8 mm
+                      
+                        Ymin: open, 4 Layer, depth 0.8 mm
+                        Ymax: open, 4 Layer, depth 0.8 mm
+                      
+                        Zmin: electric
+                        Zmax: open, 4 Layer, depth 1.92602 mm
+                      
+                        PML-Type: Convolution PML
+                      
+                      ------------------------------------------------------------------------------
+13/Jun/2021 18:43:31  Frequency settings: 
+                      
+                        Fmin:         10
+                        Fmax:         40
+                        Nfsteps(lin): 1001
+                      
+                      ------------------------------------------------------------------------------
+13/Jun/2021 18:43:31  Field update statistics:
+                      
+                        Number of components in total: 	581439
+                      
+                      Subcycling state:      Automatically deactivated
+                      
+                      ------------------------------------------------------------------------------
+13/Jun/2021 18:43:31  Port: 1
+                      
+13/Jun/2021 18:43:31    Discrete element, reference impedance = 50 Ohm
+                      
+                      ------------------------------------------------------------------------------
+13/Jun/2021 18:43:31  Port: 2
+                      
+13/Jun/2021 18:43:31    Discrete element, reference impedance = 50 Ohm
+                      
+                      ------------------------------------------------------------------------------
+13/Jun/2021 18:43:31  Port: 3
+                      
+13/Jun/2021 18:43:31    Discrete element, reference impedance = 50 Ohm
+                      
+                      ------------------------------------------------------------------------------
+13/Jun/2021 18:43:31  Port: 4
+                      
+13/Jun/2021 18:43:31    Discrete element, reference impedance = 50 Ohm
+                      
+                      ------------------------------------------------------------------------------
+13/Jun/2021 18:43:31  Port: 5
+                      
+13/Jun/2021 18:43:31    Discrete element, reference impedance = 50 Ohm
+                      
+                      ------------------------------------------------------------------------------
+13/Jun/2021 18:43:31  Port: 6
+                      
+13/Jun/2021 18:43:31    Discrete element, reference impedance = 50 Ohm
+                      
+                      ------------------------------------------------------------------------------
+13/Jun/2021 18:43:31  Port: 7
+                      
+13/Jun/2021 18:43:31    Discrete element, reference impedance = 50 Ohm
+                      
+                      ------------------------------------------------------------------------------
+13/Jun/2021 18:43:31  Port: 8
+                      
+13/Jun/2021 18:43:31    Discrete element, reference impedance = 50 Ohm
+                      
+                      ------------------------------------------------------------------------------
+13/Jun/2021 18:43:34  
+                      --------------------------------------------------------------------------------
+13/Jun/2021 18:43:34  Steady state energy criterion met, solver finished successfully.
+                      
+                      ------------------------------------------------------------------------------
+13/Jun/2021 18:43:34  Frequency domain results normalized to default signal.
+                      
+                      
+                      ------------------------------------------------------------------------------
+13/Jun/2021 18:43:34  
+                        ----------------------------------------------------------------------------
+                                            Peak memory used (kB)         Free physical memory (kB) 
+                                                                          At begin     Minimum      
+                        ----------------------------------------------------------------------------
+                        CAD preparation     19128                         8742884      8742884      
+                        Matrices calc.      184570                        8657226      8534179      
+                        Solver run total    55508                         8769740      8557712      
+                        ----------------------------------------------------------------------------
+                      
+                      --------------------------------------------------------------------------------
+                      Solver Statistics:
+                      
+                        Hardware:
+                           Computer name:                 	DESKTOP-PKNO5SL 
+                      
+                           Number of CPU threads:               8
+                           Hardware info:                  	Hardware Accelerator Device not activated
+                      
+                        Number of mesh cells:             	93100
+                        Excitation duration:              	2.36969917e-001 ns 
+                        Calculation time for excitation:  	0 	s
+                        Number of calculated pulse widths:	4.62836 
+                        Steady state accuracy limit:      	-40	dB 
+                        Simulated number of time steps:   	2680 
+                        Maximum number of time steps:     	11580 
+                        Time step width:
+                           without subcycles:             	4.09247464e-004 ns
+                           used:                          	4.09247464e-004 ns
+                      
+                        CAD preparation time:             	0      	s
+                        Matrix calculation time:          	12 	s
+                        Solver setup time:                	0 	s
+                        Solver loop time:                 	2 	s
+                        Solver post processing time:      	0 	s
+                                                          	------------
+                        Total solver time:                	14 	s
+                      
+                      ------------------------------------------------------------------------------
+13/Jun/2021 18:43:34  ======================================================================
+                       Solver cycle: 2
+                      ======================================================================
+                      
+                      Stimulation at discrete port 2 
+                      
+                      
+                      
+                      ------------------------------------------------------------------------------
+13/Jun/2021 18:43:34  Units settings: 
+                      
+                        Dimensions: mm
+                        Frequency:  GHz
+                        Time:       ns
+                      
+                      ------------------------------------------------------------------------------
+13/Jun/2021 18:43:34  The following discrete face ports are connected to metal material:
+                      	1, 2, 3, 4, 5, 6, 7, 8
+                      
+                      ------------------------------------------------------------------------------
+13/Jun/2021 18:43:35  Boundary conditions: 
+                      
+                        YZsymmetry: none
+                        XZsymmetry: none
+                        XYsymmetry: none
+                      
+                        Xmin: open, 4 Layer, depth 0.8 mm
+                        Xmax: open, 4 Layer, depth 0.8 mm
+                      
+                        Ymin: open, 4 Layer, depth 0.8 mm
+                        Ymax: open, 4 Layer, depth 0.8 mm
+                      
+                        Zmin: electric
+                        Zmax: open, 4 Layer, depth 1.92602 mm
+                      
+                        PML-Type: Convolution PML
+                      
+                      ------------------------------------------------------------------------------
+13/Jun/2021 18:43:35  Frequency settings: 
+                      
+                        Fmin:         10
+                        Fmax:         40
+                        Nfsteps(lin): 1001
+                      
+                      ------------------------------------------------------------------------------
+13/Jun/2021 18:43:35  Field update statistics:
+                      
+                        Number of components in total: 	581439
+                      
+                      Subcycling state:      Automatically deactivated
+                      
+                      ------------------------------------------------------------------------------
+13/Jun/2021 18:43:35  Port: 1
+                      
+13/Jun/2021 18:43:35    Discrete element, reference impedance = 50 Ohm
+                      
+                      ------------------------------------------------------------------------------
+13/Jun/2021 18:43:35  Port: 2
+                      
+13/Jun/2021 18:43:35    Discrete element, reference impedance = 50 Ohm
+                      
+                      ------------------------------------------------------------------------------
+13/Jun/2021 18:43:35  Port: 3
+                      
+13/Jun/2021 18:43:35    Discrete element, reference impedance = 50 Ohm
+                      
+                      ------------------------------------------------------------------------------
+13/Jun/2021 18:43:35  Port: 4
+                      
+13/Jun/2021 18:43:35    Discrete element, reference impedance = 50 Ohm
+                      
+                      ------------------------------------------------------------------------------
+13/Jun/2021 18:43:35  Port: 5
+                      
+13/Jun/2021 18:43:35    Discrete element, reference impedance = 50 Ohm
+                      
+                      ------------------------------------------------------------------------------
+13/Jun/2021 18:43:35  Port: 6
+                      
+13/Jun/2021 18:43:35    Discrete element, reference impedance = 50 Ohm
+                      
+                      ------------------------------------------------------------------------------
+13/Jun/2021 18:43:35  Port: 7
+                      
+13/Jun/2021 18:43:35    Discrete element, reference impedance = 50 Ohm
+                      
+                      ------------------------------------------------------------------------------
+13/Jun/2021 18:43:35  Port: 8
+                      
+13/Jun/2021 18:43:35    Discrete element, reference impedance = 50 Ohm
+                      
+                      ------------------------------------------------------------------------------
+13/Jun/2021 18:43:38  
+                      --------------------------------------------------------------------------------
+13/Jun/2021 18:43:38  Steady state energy criterion met, solver finished successfully.
+                      
+                      ------------------------------------------------------------------------------
+13/Jun/2021 18:43:38  Frequency domain results normalized to default signal.
+                      
+                      
+                      ------------------------------------------------------------------------------
+13/Jun/2021 18:43:38  
+                        ----------------------------------------------------------------------------
+                                            Peak memory used (kB)         Free physical memory (kB) 
+                                                                          At begin     Minimum      
+                        ----------------------------------------------------------------------------
+                        CAD preparation     19128                         8742884      8742884      
+                        Matrices calc.      184570                        8657226      8534179      
+                        Solver run total    76560                         8681216      8681216      
+                        ----------------------------------------------------------------------------
+                      
+                      --------------------------------------------------------------------------------
+                      Solver Statistics:
+                      
+                        Hardware:
+                           Computer name:                 	DESKTOP-PKNO5SL 
+                      
+                           Number of CPU threads:               8
+                           Hardware info:                  	Hardware Accelerator Device not activated
+                      
+                        Number of mesh cells:             	93100
+                        Excitation duration:              	2.36969917e-001 ns 
+                        Calculation time for excitation:  	0 	s
+                        Number of calculated pulse widths:	4.62836 
+                        Steady state accuracy limit:      	-40	dB 
+                        Simulated number of time steps:   	2680 
+                        Maximum number of time steps:     	11580 
+                        Time step width:
+                           without subcycles:             	4.09247464e-004 ns
+                           used:                          	4.09247464e-004 ns
+                      
+                        Reloading matrices:               	0 	s
+                        Solver setup time:                	0 	s
+                        Solver loop time:                 	2 	s
+                        Solver post processing time:      	0 	s
+                                                          	------------
+                        Total solver time:                	2 	s
+                      
+                      ------------------------------------------------------------------------------
+13/Jun/2021 18:43:38  ======================================================================
+                       Solver cycle: 3
+                      ======================================================================
+                      
+                      Stimulation at discrete port 3 
+                      
+                      
+                      
+                      ------------------------------------------------------------------------------
+13/Jun/2021 18:43:38  Units settings: 
+                      
+                        Dimensions: mm
+                        Frequency:  GHz
+                        Time:       ns
+                      
+                      ------------------------------------------------------------------------------
+13/Jun/2021 18:43:38  The following discrete face ports are connected to metal material:
+                      	1, 2, 3, 4, 5, 6, 7, 8
+                      
+                      ------------------------------------------------------------------------------
+13/Jun/2021 18:43:39  Boundary conditions: 
+                      
+                        YZsymmetry: none
+                        XZsymmetry: none
+                        XYsymmetry: none
+                      
+                        Xmin: open, 4 Layer, depth 0.8 mm
+                        Xmax: open, 4 Layer, depth 0.8 mm
+                      
+                        Ymin: open, 4 Layer, depth 0.8 mm
+                        Ymax: open, 4 Layer, depth 0.8 mm
+                      
+                        Zmin: electric
+                        Zmax: open, 4 Layer, depth 1.92602 mm
+                      
+                        PML-Type: Convolution PML
+                      
+                      ------------------------------------------------------------------------------
+13/Jun/2021 18:43:39  Frequency settings: 
+                      
+                        Fmin:         10
+                        Fmax:         40
+                        Nfsteps(lin): 1001
+                      
+                      ------------------------------------------------------------------------------
+13/Jun/2021 18:43:39  Field update statistics:
+                      
+                        Number of components in total: 	581439
+                      
+                      Subcycling state:      Automatically deactivated
+                      
+                      ------------------------------------------------------------------------------
+13/Jun/2021 18:43:39  Port: 1
+                      
+13/Jun/2021 18:43:39    Discrete element, reference impedance = 50 Ohm
+                      
+                      ------------------------------------------------------------------------------
+13/Jun/2021 18:43:39  Port: 2
+                      
+13/Jun/2021 18:43:39    Discrete element, reference impedance = 50 Ohm
+                      
+                      ------------------------------------------------------------------------------
+13/Jun/2021 18:43:39  Port: 3
+                      
+13/Jun/2021 18:43:39    Discrete element, reference impedance = 50 Ohm
+                      
+                      ------------------------------------------------------------------------------
+13/Jun/2021 18:43:39  Port: 4
+                      
+13/Jun/2021 18:43:39    Discrete element, reference impedance = 50 Ohm
+                      
+                      ------------------------------------------------------------------------------
+13/Jun/2021 18:43:39  Port: 5
+                      
+13/Jun/2021 18:43:39    Discrete element, reference impedance = 50 Ohm
+                      
+                      ------------------------------------------------------------------------------
+13/Jun/2021 18:43:39  Port: 6
+                      
+13/Jun/2021 18:43:39    Discrete element, reference impedance = 50 Ohm
+                      
+                      ------------------------------------------------------------------------------
+13/Jun/2021 18:43:39  Port: 7
+                      
+13/Jun/2021 18:43:39    Discrete element, reference impedance = 50 Ohm
+                      
+                      ------------------------------------------------------------------------------
+13/Jun/2021 18:43:39  Port: 8
+                      
+13/Jun/2021 18:43:39    Discrete element, reference impedance = 50 Ohm
+                      
+                      ------------------------------------------------------------------------------
+13/Jun/2021 18:43:42  
+                      --------------------------------------------------------------------------------
+13/Jun/2021 18:43:42  Steady state energy criterion met, solver finished successfully.
+                      
+                      ------------------------------------------------------------------------------
+13/Jun/2021 18:43:42  Frequency domain results normalized to default signal.
+                      
+                      
+                      ------------------------------------------------------------------------------
+13/Jun/2021 18:43:42  
+                        ----------------------------------------------------------------------------
+                                            Peak memory used (kB)         Free physical memory (kB) 
+                                                                          At begin     Minimum      
+                        ----------------------------------------------------------------------------
+                        CAD preparation     19128                         8742884      8742884      
+                        Matrices calc.      184570                        8657226      8534179      
+                        Solver run total    78960                         8701336      8694464      
+                        ----------------------------------------------------------------------------
+                      
+                      --------------------------------------------------------------------------------
+                      Solver Statistics:
+                      
+                        Hardware:
+                           Computer name:                 	DESKTOP-PKNO5SL 
+                      
+                           Number of CPU threads:               8
+                           Hardware info:                  	Hardware Accelerator Device not activated
+                      
+                        Number of mesh cells:             	93100
+                        Excitation duration:              	2.36969917e-001 ns 
+                        Calculation time for excitation:  	0 	s
+                        Number of calculated pulse widths:	3.90302 
+                        Steady state accuracy limit:      	-40	dB 
+                        Simulated number of time steps:   	2260 
+                        Maximum number of time steps:     	11580 
+                        Time step width:
+                           without subcycles:             	4.09247464e-004 ns
+                           used:                          	4.09247464e-004 ns
+                      
+                        Reloading matrices:               	0 	s
+                        Solver setup time:                	0 	s
+                        Solver loop time:                 	2 	s
+                        Solver post processing time:      	0 	s
+                                                          	------------
+                        Total solver time:                	2 	s
+                      
+                      ------------------------------------------------------------------------------
+13/Jun/2021 18:43:42  ======================================================================
+                       Solver cycle: 4
+                      ======================================================================
+                      
+                      Stimulation at discrete port 4 
+                      
+                      
+                      
+                      ------------------------------------------------------------------------------
+13/Jun/2021 18:43:42  Units settings: 
+                      
+                        Dimensions: mm
+                        Frequency:  GHz
+                        Time:       ns
+                      
+                      ------------------------------------------------------------------------------
+13/Jun/2021 18:43:42  The following discrete face ports are connected to metal material:
+                      	1, 2, 3, 4, 5, 6, 7, 8
+                      
+                      ------------------------------------------------------------------------------
+13/Jun/2021 18:43:42  Boundary conditions: 
+                      
+                        YZsymmetry: none
+                        XZsymmetry: none
+                        XYsymmetry: none
+                      
+                        Xmin: open, 4 Layer, depth 0.8 mm
+                        Xmax: open, 4 Layer, depth 0.8 mm
+                      
+                        Ymin: open, 4 Layer, depth 0.8 mm
+                        Ymax: open, 4 Layer, depth 0.8 mm
+                      
+                        Zmin: electric
+                        Zmax: open, 4 Layer, depth 1.92602 mm
+                      
+                        PML-Type: Convolution PML
+                      
+                      ------------------------------------------------------------------------------
+13/Jun/2021 18:43:42  Frequency settings: 
+                      
+                        Fmin:         10
+                        Fmax:         40
+                        Nfsteps(lin): 1001
+                      
+                      ------------------------------------------------------------------------------
+13/Jun/2021 18:43:42  Field update statistics:
+                      
+                        Number of components in total: 	581439
+                      
+                      Subcycling state:      Automatically deactivated
+                      
+                      ------------------------------------------------------------------------------
+13/Jun/2021 18:43:42  Port: 1
+                      
+13/Jun/2021 18:43:42    Discrete element, reference impedance = 50 Ohm
+                      
+                      ------------------------------------------------------------------------------
+13/Jun/2021 18:43:42  Port: 2
+                      
+13/Jun/2021 18:43:42    Discrete element, reference impedance = 50 Ohm
+                      
+                      ------------------------------------------------------------------------------
+13/Jun/2021 18:43:42  Port: 3
+                      
+13/Jun/2021 18:43:42    Discrete element, reference impedance = 50 Ohm
+                      
+                      ------------------------------------------------------------------------------
+13/Jun/2021 18:43:42  Port: 4
+                      
+13/Jun/2021 18:43:42    Discrete element, reference impedance = 50 Ohm
+                      
+                      ------------------------------------------------------------------------------
+13/Jun/2021 18:43:42  Port: 5
+                      
+13/Jun/2021 18:43:42    Discrete element, reference impedance = 50 Ohm
+                      
+                      ------------------------------------------------------------------------------
+13/Jun/2021 18:43:42  Port: 6
+                      
+13/Jun/2021 18:43:42    Discrete element, reference impedance = 50 Ohm
+                      
+                      ------------------------------------------------------------------------------
+13/Jun/2021 18:43:42  Port: 7
+                      
+13/Jun/2021 18:43:42    Discrete element, reference impedance = 50 Ohm
+                      
+                      ------------------------------------------------------------------------------
+13/Jun/2021 18:43:42  Port: 8
+                      
+13/Jun/2021 18:43:42    Discrete element, reference impedance = 50 Ohm
+                      
+                      ------------------------------------------------------------------------------
+13/Jun/2021 18:43:45  
+                      --------------------------------------------------------------------------------
+13/Jun/2021 18:43:45  Steady state energy criterion met, solver finished successfully.
+                      
+                      ------------------------------------------------------------------------------
+13/Jun/2021 18:43:45  Frequency domain results normalized to default signal.
+                      
+                      
+                      ------------------------------------------------------------------------------
+13/Jun/2021 18:43:45  
+                        ----------------------------------------------------------------------------
+                                            Peak memory used (kB)         Free physical memory (kB) 
+                                                                          At begin     Minimum      
+                        ----------------------------------------------------------------------------
+                        CAD preparation     19128                         8742884      8742884      
+                        Matrices calc.      184570                        8657226      8534179      
+                        Solver run total    78960                         8706064      8706064      
+                        ----------------------------------------------------------------------------
+                      
+                      --------------------------------------------------------------------------------
+                      Solver Statistics:
+                      
+                        Hardware:
+                           Computer name:                 	DESKTOP-PKNO5SL 
+                      
+                           Number of CPU threads:               8
+                           Hardware info:                  	Hardware Accelerator Device not activated
+                      
+                        Number of mesh cells:             	93100
+                        Excitation duration:              	2.36969917e-001 ns 
+                        Calculation time for excitation:  	1 	s
+                        Number of calculated pulse widths:	3.90302 
+                        Steady state accuracy limit:      	-40	dB 
+                        Simulated number of time steps:   	2260 
+                        Maximum number of time steps:     	11580 
+                        Time step width:
+                           without subcycles:             	4.09247464e-004 ns
+                           used:                          	4.09247464e-004 ns
+                      
+                        Reloading matrices:               	0 	s
+                        Solver setup time:                	0 	s
+                        Solver loop time:                 	2 	s
+                        Solver post processing time:      	0 	s
+                                                          	------------
+                        Total solver time:                	2 	s
+                      
+                      ------------------------------------------------------------------------------
+13/Jun/2021 18:43:45  ======================================================================
+                       Solver cycle: 5
+                      ======================================================================
+                      
+                      Stimulation at discrete port 5 
+                      
+                      
+                      
+                      ------------------------------------------------------------------------------
+13/Jun/2021 18:43:45  Units settings: 
+                      
+                        Dimensions: mm
+                        Frequency:  GHz
+                        Time:       ns
+                      
+                      ------------------------------------------------------------------------------
+13/Jun/2021 18:43:45  The following discrete face ports are connected to metal material:
+                      	1, 2, 3, 4, 5, 6, 7, 8
+                      
+                      ------------------------------------------------------------------------------
+13/Jun/2021 18:43:45  Boundary conditions: 
+                      
+                        YZsymmetry: none
+                        XZsymmetry: none
+                        XYsymmetry: none
+                      
+                        Xmin: open, 4 Layer, depth 0.8 mm
+                        Xmax: open, 4 Layer, depth 0.8 mm
+                      
+                        Ymin: open, 4 Layer, depth 0.8 mm
+                        Ymax: open, 4 Layer, depth 0.8 mm
+                      
+                        Zmin: electric
+                        Zmax: open, 4 Layer, depth 1.92602 mm
+                      
+                        PML-Type: Convolution PML
+                      
+                      ------------------------------------------------------------------------------
+13/Jun/2021 18:43:45  Frequency settings: 
+                      
+                        Fmin:         10
+                        Fmax:         40
+                        Nfsteps(lin): 1001
+                      
+                      ------------------------------------------------------------------------------
+13/Jun/2021 18:43:45  Field update statistics:
+                      
+                        Number of components in total: 	581439
+                      
+                      Subcycling state:      Automatically deactivated
+                      
+                      ------------------------------------------------------------------------------
+13/Jun/2021 18:43:45  Port: 1
+                      
+13/Jun/2021 18:43:45    Discrete element, reference impedance = 50 Ohm
+                      
+                      ------------------------------------------------------------------------------
+13/Jun/2021 18:43:45  Port: 2
+                      
+13/Jun/2021 18:43:45    Discrete element, reference impedance = 50 Ohm
+                      
+                      ------------------------------------------------------------------------------
+13/Jun/2021 18:43:45  Port: 3
+                      
+13/Jun/2021 18:43:45    Discrete element, reference impedance = 50 Ohm
+                      
+                      ------------------------------------------------------------------------------
+13/Jun/2021 18:43:45  Port: 4
+                      
+13/Jun/2021 18:43:45    Discrete element, reference impedance = 50 Ohm
+                      
+                      ------------------------------------------------------------------------------
+13/Jun/2021 18:43:45  Port: 5
+                      
+13/Jun/2021 18:43:45    Discrete element, reference impedance = 50 Ohm
+                      
+                      ------------------------------------------------------------------------------
+13/Jun/2021 18:43:45  Port: 6
+                      
+13/Jun/2021 18:43:45    Discrete element, reference impedance = 50 Ohm
+                      
+                      ------------------------------------------------------------------------------
+13/Jun/2021 18:43:45  Port: 7
+                      
+13/Jun/2021 18:43:45    Discrete element, reference impedance = 50 Ohm
+                      
+                      ------------------------------------------------------------------------------
+13/Jun/2021 18:43:45  Port: 8
+                      
+13/Jun/2021 18:43:45    Discrete element, reference impedance = 50 Ohm
+                      
+                      ------------------------------------------------------------------------------
+13/Jun/2021 18:43:49  
+                      --------------------------------------------------------------------------------
+13/Jun/2021 18:43:49  Steady state energy criterion met, solver finished successfully.
+                      
+                      ------------------------------------------------------------------------------
+13/Jun/2021 18:43:49  Frequency domain results normalized to default signal.
+                      
+                      
+                      ------------------------------------------------------------------------------
+13/Jun/2021 18:43:49  
+                        ----------------------------------------------------------------------------
+                                            Peak memory used (kB)         Free physical memory (kB) 
+                                                                          At begin     Minimum      
+                        ----------------------------------------------------------------------------
+                        CAD preparation     19128                         8742884      8742884      
+                        Matrices calc.      184570                        8657226      8534179      
+                        Solver run total    78960                         8721424      8721424      
+                        ----------------------------------------------------------------------------
+                      
+                      --------------------------------------------------------------------------------
+                      Solver Statistics:
+                      
+                        Hardware:
+                           Computer name:                 	DESKTOP-PKNO5SL 
+                      
+                           Number of CPU threads:               8
+                           Hardware info:                  	Hardware Accelerator Device not activated
+                      
+                        Number of mesh cells:             	93100
+                        Excitation duration:              	2.36969917e-001 ns 
+                        Calculation time for excitation:  	0 	s
+                        Number of calculated pulse widths:	4.62836 
+                        Steady state accuracy limit:      	-40	dB 
+                        Simulated number of time steps:   	2680 
+                        Maximum number of time steps:     	11580 
+                        Time step width:
+                           without subcycles:             	4.09247464e-004 ns
+                           used:                          	4.09247464e-004 ns
+                      
+                        Reloading matrices:               	0 	s
+                        Solver setup time:                	0 	s
+                        Solver loop time:                 	2 	s
+                        Solver post processing time:      	0 	s
+                                                          	------------
+                        Total solver time:                	2 	s
+                      
+                      ------------------------------------------------------------------------------
+13/Jun/2021 18:43:49  ======================================================================
+                       Solver cycle: 6
+                      ======================================================================
+                      
+                      Stimulation at discrete port 6 
+                      
+                      
+                      
+                      ------------------------------------------------------------------------------
+13/Jun/2021 18:43:49  Units settings: 
+                      
+                        Dimensions: mm
+                        Frequency:  GHz
+                        Time:       ns
+                      
+                      ------------------------------------------------------------------------------
+13/Jun/2021 18:43:49  The following discrete face ports are connected to metal material:
+                      	1, 2, 3, 4, 5, 6, 7, 8
+                      
+                      ------------------------------------------------------------------------------
+13/Jun/2021 18:43:49  Boundary conditions: 
+                      
+                        YZsymmetry: none
+                        XZsymmetry: none
+                        XYsymmetry: none
+                      
+                        Xmin: open, 4 Layer, depth 0.8 mm
+                        Xmax: open, 4 Layer, depth 0.8 mm
+                      
+                        Ymin: open, 4 Layer, depth 0.8 mm
+                        Ymax: open, 4 Layer, depth 0.8 mm
+                      
+                        Zmin: electric
+                        Zmax: open, 4 Layer, depth 1.92602 mm
+                      
+                        PML-Type: Convolution PML
+                      
+                      ------------------------------------------------------------------------------
+13/Jun/2021 18:43:49  Frequency settings: 
+                      
+                        Fmin:         10
+                        Fmax:         40
+                        Nfsteps(lin): 1001
+                      
+                      ------------------------------------------------------------------------------
+13/Jun/2021 18:43:49  Field update statistics:
+                      
+                        Number of components in total: 	581439
+                      
+                      Subcycling state:      Automatically deactivated
+                      
+                      ------------------------------------------------------------------------------
+13/Jun/2021 18:43:49  Port: 1
+                      
+13/Jun/2021 18:43:49    Discrete element, reference impedance = 50 Ohm
+                      
+                      ------------------------------------------------------------------------------
+13/Jun/2021 18:43:49  Port: 2
+                      
+13/Jun/2021 18:43:49    Discrete element, reference impedance = 50 Ohm
+                      
+                      ------------------------------------------------------------------------------
+13/Jun/2021 18:43:49  Port: 3
+                      
+13/Jun/2021 18:43:49    Discrete element, reference impedance = 50 Ohm
+                      
+                      ------------------------------------------------------------------------------
+13/Jun/2021 18:43:49  Port: 4
+                      
+13/Jun/2021 18:43:49    Discrete element, reference impedance = 50 Ohm
+                      
+                      ------------------------------------------------------------------------------
+13/Jun/2021 18:43:49  Port: 5
+                      
+13/Jun/2021 18:43:49    Discrete element, reference impedance = 50 Ohm
+                      
+                      ------------------------------------------------------------------------------
+13/Jun/2021 18:43:49  Port: 6
+                      
+13/Jun/2021 18:43:49    Discrete element, reference impedance = 50 Ohm
+                      
+                      ------------------------------------------------------------------------------
+13/Jun/2021 18:43:49  Port: 7
+                      
+13/Jun/2021 18:43:49    Discrete element, reference impedance = 50 Ohm
+                      
+                      ------------------------------------------------------------------------------
+13/Jun/2021 18:43:49  Port: 8
+                      
+13/Jun/2021 18:43:49    Discrete element, reference impedance = 50 Ohm
+                      
+                      ------------------------------------------------------------------------------
+13/Jun/2021 18:43:52  
+                      --------------------------------------------------------------------------------
+13/Jun/2021 18:43:52  Steady state energy criterion met, solver finished successfully.
+                      
+                      ------------------------------------------------------------------------------
+13/Jun/2021 18:43:52  Frequency domain results normalized to default signal.
+                      
+                      
+                      ------------------------------------------------------------------------------
+13/Jun/2021 18:43:52  
+                        ----------------------------------------------------------------------------
+                                            Peak memory used (kB)         Free physical memory (kB) 
+                                                                          At begin     Minimum      
+                        ----------------------------------------------------------------------------
+                        CAD preparation     19128                         8742884      8742884      
+                        Matrices calc.      184570                        8657226      8534179      
+                        Solver run total    79036                         8729400      8720032      
+                        ----------------------------------------------------------------------------
+                      
+                      --------------------------------------------------------------------------------
+                      Solver Statistics:
+                      
+                        Hardware:
+                           Computer name:                 	DESKTOP-PKNO5SL 
+                      
+                           Number of CPU threads:               8
+                           Hardware info:                  	Hardware Accelerator Device not activated
+                      
+                        Number of mesh cells:             	93100
+                        Excitation duration:              	2.36969917e-001 ns 
+                        Calculation time for excitation:  	1 	s
+                        Number of calculated pulse widths:	3.90302 
+                        Steady state accuracy limit:      	-40	dB 
+                        Simulated number of time steps:   	2260 
+                        Maximum number of time steps:     	11580 
+                        Time step width:
+                           without subcycles:             	4.09247464e-004 ns
+                           used:                          	4.09247464e-004 ns
+                      
+                        Reloading matrices:               	0 	s
+                        Solver setup time:                	0 	s
+                        Solver loop time:                 	2 	s
+                        Solver post processing time:      	0 	s
+                                                          	------------
+                        Total solver time:                	2 	s
+                      
+                      ------------------------------------------------------------------------------
+13/Jun/2021 18:43:52  ======================================================================
+                       Solver cycle: 7
+                      ======================================================================
+                      
+                      Stimulation at discrete port 7 
+                      
+                      
+                      
+                      ------------------------------------------------------------------------------
+13/Jun/2021 18:43:52  Units settings: 
+                      
+                        Dimensions: mm
+                        Frequency:  GHz
+                        Time:       ns
+                      
+                      ------------------------------------------------------------------------------
+13/Jun/2021 18:43:52  The following discrete face ports are connected to metal material:
+                      	1, 2, 3, 4, 5, 6, 7, 8
+                      
+                      ------------------------------------------------------------------------------
+13/Jun/2021 18:43:53  Boundary conditions: 
+                      
+                        YZsymmetry: none
+                        XZsymmetry: none
+                        XYsymmetry: none
+                      
+                        Xmin: open, 4 Layer, depth 0.8 mm
+                        Xmax: open, 4 Layer, depth 0.8 mm
+                      
+                        Ymin: open, 4 Layer, depth 0.8 mm
+                        Ymax: open, 4 Layer, depth 0.8 mm
+                      
+                        Zmin: electric
+                        Zmax: open, 4 Layer, depth 1.92602 mm
+                      
+                        PML-Type: Convolution PML
+                      
+                      ------------------------------------------------------------------------------
+13/Jun/2021 18:43:53  Frequency settings: 
+                      
+                        Fmin:         10
+                        Fmax:         40
+                        Nfsteps(lin): 1001
+                      
+                      ------------------------------------------------------------------------------
+13/Jun/2021 18:43:53  Field update statistics:
+                      
+                        Number of components in total: 	581439
+                      
+                      Subcycling state:      Automatically deactivated
+                      
+                      ------------------------------------------------------------------------------
+13/Jun/2021 18:43:53  Port: 1
+                      
+13/Jun/2021 18:43:53    Discrete element, reference impedance = 50 Ohm
+                      
+                      ------------------------------------------------------------------------------
+13/Jun/2021 18:43:53  Port: 2
+                      
+13/Jun/2021 18:43:53    Discrete element, reference impedance = 50 Ohm
+                      
+                      ------------------------------------------------------------------------------
+13/Jun/2021 18:43:53  Port: 3
+                      
+13/Jun/2021 18:43:53    Discrete element, reference impedance = 50 Ohm
+                      
+                      ------------------------------------------------------------------------------
+13/Jun/2021 18:43:53  Port: 4
+                      
+13/Jun/2021 18:43:53    Discrete element, reference impedance = 50 Ohm
+                      
+                      ------------------------------------------------------------------------------
+13/Jun/2021 18:43:53  Port: 5
+                      
+13/Jun/2021 18:43:53    Discrete element, reference impedance = 50 Ohm
+                      
+                      ------------------------------------------------------------------------------
+13/Jun/2021 18:43:53  Port: 6
+                      
+13/Jun/2021 18:43:53    Discrete element, reference impedance = 50 Ohm
+                      
+                      ------------------------------------------------------------------------------
+13/Jun/2021 18:43:53  Port: 7
+                      
+13/Jun/2021 18:43:53    Discrete element, reference impedance = 50 Ohm
+                      
+                      ------------------------------------------------------------------------------
+13/Jun/2021 18:43:53  Port: 8
+                      
+13/Jun/2021 18:43:53    Discrete element, reference impedance = 50 Ohm
+                      
+                      ------------------------------------------------------------------------------
+13/Jun/2021 18:43:56  
+                      --------------------------------------------------------------------------------
+13/Jun/2021 18:43:56  Steady state energy criterion met, solver finished successfully.
+                      
+                      ------------------------------------------------------------------------------
+13/Jun/2021 18:43:56  Frequency domain results normalized to default signal.
+                      
+                      
+                      ------------------------------------------------------------------------------
+13/Jun/2021 18:43:56  
+                        ----------------------------------------------------------------------------
+                                            Peak memory used (kB)         Free physical memory (kB) 
+                                                                          At begin     Minimum      
+                        ----------------------------------------------------------------------------
+                        CAD preparation     19128                         8742884      8742884      
+                        Matrices calc.      184570                        8657226      8534179      
+                        Solver run total    79136                         8719764      8719764      
+                        ----------------------------------------------------------------------------
+                      
+                      --------------------------------------------------------------------------------
+                      Solver Statistics:
+                      
+                        Hardware:
+                           Computer name:                 	DESKTOP-PKNO5SL 
+                      
+                           Number of CPU threads:               8
+                           Hardware info:                  	Hardware Accelerator Device not activated
+                      
+                        Number of mesh cells:             	93100
+                        Excitation duration:              	2.36969917e-001 ns 
+                        Calculation time for excitation:  	0 	s
+                        Number of calculated pulse widths:	4.62836 
+                        Steady state accuracy limit:      	-40	dB 
+                        Simulated number of time steps:   	2680 
+                        Maximum number of time steps:     	11580 
+                        Time step width:
+                           without subcycles:             	4.09247464e-004 ns
+                           used:                          	4.09247464e-004 ns
+                      
+                        Reloading matrices:               	0 	s
+                        Solver setup time:                	0 	s
+                        Solver loop time:                 	2 	s
+                        Solver post processing time:      	0 	s
+                                                          	------------
+                        Total solver time:                	2 	s
+                      
+                      ------------------------------------------------------------------------------
+13/Jun/2021 18:43:56  ======================================================================
+                       Solver cycle: 8
+                      ======================================================================
+                      
+                      Stimulation at discrete port 8 
+                      
+                      
+                      
+                      ------------------------------------------------------------------------------
+13/Jun/2021 18:43:56  Units settings: 
+                      
+                        Dimensions: mm
+                        Frequency:  GHz
+                        Time:       ns
+                      
+                      ------------------------------------------------------------------------------
+13/Jun/2021 18:43:56  The following discrete face ports are connected to metal material:
+                      	1, 2, 3, 4, 5, 6, 7, 8
+                      
+                      ------------------------------------------------------------------------------
+13/Jun/2021 18:43:56  Boundary conditions: 
+                      
+                        YZsymmetry: none
+                        XZsymmetry: none
+                        XYsymmetry: none
+                      
+                        Xmin: open, 4 Layer, depth 0.8 mm
+                        Xmax: open, 4 Layer, depth 0.8 mm
+                      
+                        Ymin: open, 4 Layer, depth 0.8 mm
+                        Ymax: open, 4 Layer, depth 0.8 mm
+                      
+                        Zmin: electric
+                        Zmax: open, 4 Layer, depth 1.92602 mm
+                      
+                        PML-Type: Convolution PML
+                      
+                      ------------------------------------------------------------------------------
+13/Jun/2021 18:43:56  Frequency settings: 
+                      
+                        Fmin:         10
+                        Fmax:         40
+                        Nfsteps(lin): 1001
+                      
+                      ------------------------------------------------------------------------------
+13/Jun/2021 18:43:56  Field update statistics:
+                      
+                        Number of components in total: 	581439
+                      
+                      Subcycling state:      Automatically deactivated
+                      
+                      ------------------------------------------------------------------------------
+13/Jun/2021 18:43:56  Port: 1
+                      
+13/Jun/2021 18:43:56    Discrete element, reference impedance = 50 Ohm
+                      
+                      ------------------------------------------------------------------------------
+13/Jun/2021 18:43:56  Port: 2
+                      
+13/Jun/2021 18:43:56    Discrete element, reference impedance = 50 Ohm
+                      
+                      ------------------------------------------------------------------------------
+13/Jun/2021 18:43:56  Port: 3
+                      
+13/Jun/2021 18:43:56    Discrete element, reference impedance = 50 Ohm
+                      
+                      ------------------------------------------------------------------------------
+13/Jun/2021 18:43:56  Port: 4
+                      
+13/Jun/2021 18:43:56    Discrete element, reference impedance = 50 Ohm
+                      
+                      ------------------------------------------------------------------------------
+13/Jun/2021 18:43:56  Port: 5
+                      
+13/Jun/2021 18:43:56    Discrete element, reference impedance = 50 Ohm
+                      
+                      ------------------------------------------------------------------------------
+13/Jun/2021 18:43:56  Port: 6
+                      
+13/Jun/2021 18:43:56    Discrete element, reference impedance = 50 Ohm
+                      
+                      ------------------------------------------------------------------------------
+13/Jun/2021 18:43:56  Port: 7
+                      
+13/Jun/2021 18:43:56    Discrete element, reference impedance = 50 Ohm
+                      
+                      ------------------------------------------------------------------------------
+13/Jun/2021 18:43:56  Port: 8
+                      
+13/Jun/2021 18:43:56    Discrete element, reference impedance = 50 Ohm
+                      
+                      ------------------------------------------------------------------------------
+13/Jun/2021 18:43:59  
+                      --------------------------------------------------------------------------------
+13/Jun/2021 18:43:59  Steady state energy criterion met, solver finished successfully.
+                      
+                      ------------------------------------------------------------------------------
+13/Jun/2021 18:43:59  Frequency domain results normalized to default signal.
+                      
+                      
+                      ------------------------------------------------------------------------------
+13/Jun/2021 18:43:59  
+                        ----------------------------------------------------------------------------
+                                            Peak memory used (kB)         Free physical memory (kB) 
+                                                                          At begin     Minimum      
+                        ----------------------------------------------------------------------------
+                        CAD preparation     19128                         8742884      8742884      
+                        Matrices calc.      184570                        8657226      8534179      
+                        Solver run total    79536                         8725864      8714004      
+                        ----------------------------------------------------------------------------
+                      
+                      --------------------------------------------------------------------------------
+                      Solver Statistics:
+                      
+                        Hardware:
+                           Computer name:                 	DESKTOP-PKNO5SL 
+                      
+                           Number of CPU threads:               8
+                           Hardware info:                  	Hardware Accelerator Device not activated
+                      
+                        Number of mesh cells:             	93100
+                        Excitation duration:              	2.36969917e-001 ns 
+                        Calculation time for excitation:  	0 	s
+                        Number of calculated pulse widths:	3.90302 
+                        Steady state accuracy limit:      	-40	dB 
+                        Simulated number of time steps:   	2260 
+                        Maximum number of time steps:     	11580 
+                        Time step width:
+                           without subcycles:             	4.09247464e-004 ns
+                           used:                          	4.09247464e-004 ns
+                      
+                        Reloading matrices:               	0 	s
+                        Solver setup time:                	0 	s
+                        Solver loop time:                 	2 	s
+                        Solver post processing time:      	0 	s
+                                                          	------------
+                        Total solver time:                	2 	s
+                      
+                      ------------------------------------------------------------------------------
+13/Jun/2021 18:43:59  
+                        Adaptive port meshing time:          	0      	s
+                        Total solver time (all cycles):      	28     	s
+                        solver initialization and clean-up:  	13     	s
+                                                             	------------
+                        Total simulation time:               	41     	s
+                      
+                      ------------------------------------------------------------------------------
+13/Jun/2021 18:43:59  Solver finished at: 06:43 PM Sunday, 13. June 2021
+                      
+                      
+                      
+                      ------------------------------------------------------------------------------
+13/Jun/2021 18:44:03  Creating parametric 1D results for Run ID 2
+                      
+                      ------------------------------------------------------------------------------

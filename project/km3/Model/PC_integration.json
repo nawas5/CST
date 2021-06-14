@@ -1,0 +1,124 @@
+{
+   "execution": {
+      "classname": "SMAPowerByEmagHPCFrame",
+      "libname": "SMAPowerByEmagUI"
+   },
+   "inputVariables": [
+      {
+         "name": "taper_factor",
+         "type": "float",
+         "value": 103.7
+      },
+      {
+         "name": "tan_delta",
+         "type": "float",
+         "value": 0.0
+      },
+      {
+         "name": "substrate_height",
+         "type": "float",
+         "value": 0.183606557377049
+      },
+      {
+         "name": "stub_start_angle",
+         "type": "float",
+         "value": 90.0
+      },
+      {
+         "name": "stub_radius",
+         "type": "float",
+         "value": 1.63638507335576
+      },
+      {
+         "name": "stub_angle",
+         "type": "float",
+         "value": 80.0
+      },
+      {
+         "name": "slotline_width",
+         "type": "float",
+         "value": 0.095422294333159
+      },
+      {
+         "name": "slotline_length",
+         "type": "float",
+         "value": 0.128674778850921
+      },
+      {
+         "name": "relative_permittivity",
+         "type": "float",
+         "value": 3.27
+      },
+      {
+         "name": "num_ff_monitors",
+         "type": "float",
+         "value": 15.0
+      },
+      {
+         "name": "microstrip_taper_width",
+         "type": "float",
+         "value": 0.43504840522631
+      },
+      {
+         "name": "microstrip_taper_length",
+         "type": "float",
+         "value": 4.74108327236788
+      },
+      {
+         "name": "microstrip_coupler_width",
+         "type": "float",
+         "value": 0.128674778850921
+      },
+      {
+         "name": "microstrip_coupler_length",
+         "type": "float",
+         "value": 2.16986227510254
+      },
+      {
+         "name": "microstrip_coupler_inset",
+         "type": "float",
+         "value": 0.0643373894254607
+      },
+      {
+         "name": "frequency_minimum",
+         "type": "float",
+         "value": 15.0
+      },
+      {
+         "name": "frequency_maximum",
+         "type": "float",
+         "value": 27.0
+      },
+      {
+         "name": "flare_length",
+         "type": "float",
+         "value": 30.3550704821601
+      },
+      {
+         "name": "flare_height",
+         "type": "float",
+         "value": 15.9002750144648
+      },
+      {
+         "name": "conductor_height",
+         "type": "float",
+         "value": 20.2367136547734
+      },
+      {
+         "name": "cavity_diameter",
+         "type": "float",
+         "value": 2.16986227510254
+      },
+      {
+         "name": "c0",
+         "type": "string",
+         "value": "CLight*1E-06"
+      },
+      {
+         "name": "conversion_factor",
+         "type": "string",
+         "value": "Units.GetGeometrySIToUnit"
+      }
+   ],
+   "outputVariables": []
+}
